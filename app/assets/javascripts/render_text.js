@@ -44,10 +44,10 @@ function wrapText(context, text, x, y, maxWidth, lineHeight) {
 function renderText(element) {
   var el = document.getElementById(element);
   var ctxt = el.getContext('2d');
-  var text = $(el).data('text');
+  var text = $el.data('text');
 
-  var winW = $(window).width();
-  var winH = $(window).height();
+  var winW = $(window).width() * percentH;
+  var winH = $(window).height() * percentW;
 
   var lineHeight = 60;
   var color = '#ffffff';
