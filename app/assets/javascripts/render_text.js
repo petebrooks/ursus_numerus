@@ -40,6 +40,7 @@ function wrapText(context, text, x, y, maxWidth, lineHeight) {
   }
   context.fillText(line, x, y);
 }
+
 function renderText(element) {
   var el = document.getElementById(element);
   var ctxt = el.getContext('2d');
@@ -48,7 +49,7 @@ function renderText(element) {
   var winW = $(window).width();
   var winH = $(window).height();
 
-  var lineHeight = 50;
+  var lineHeight = 60;
   var color = '#ffffff';
   var x = winW * .2, y = x;
 

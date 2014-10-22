@@ -42,9 +42,10 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  // background-image: linear-gradient(red, orange, yellow, green, blue, purple);
   background-image: url('1.jpg');
-  // background-color: blue;
+  &#nextTitless {
+    height: 10vh;
+  }
 }
 section.module.parallax-2 {
   background-image: url('2.jpg');

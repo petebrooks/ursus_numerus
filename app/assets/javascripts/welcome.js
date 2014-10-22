@@ -1,4 +1,4 @@
-var txtIds = ['introTitle', 'secondTitle'];
+var txtIds = ['introTitle', 'secondTitle', 'nextTitle'];
 
 $(document).ready(function() {
   renderTextArray(txtIds);
