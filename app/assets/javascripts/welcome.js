@@ -1,13 +1,8 @@
 var txtIds = ['introTitle', 'secondTitle'];
 
 $(document).ready(function() {
-  drawText('introTitle', 150, 150, 50, '#ffffff');
-  drawText('secondTitle', 150, 150, 50, '#ffffff');
+  renderTextArray(txtIds);
   $(window).resize(function(event) {
-    drawText('introTitle', 150, 150, 50, '#ffffff');
+    renderTextArray(txtIds);
   });
 });
-
-function drawAllTxt() {
-  
-}
