@@ -42,30 +42,26 @@ function wrapText(context, text, x, y, maxWidth, lineHeight) {
 }
 
 function renderText(element) {
-  var el = document.getElementById(element);
-  var $el = $(el);
-  var ctxt = el.getContext('2d');
-  var text = $el.data('text');
-
-  var percentW = $el.data('percentw') || 1;
-  var percentH = $el.data('percenth') || 1;
-  var paddingW = $el.data('paddingw') || 0.2;
-  var paddingH = $el.data('paddingh') || 0.3;
-
-  var w = $(window).width() * percentW;
-  var h = $(window).height() * percentH;
-
-  var lineHeight = 60;
-  var color = '#ffffff';
-  var x = w * paddingW, y = h * paddingH;
-  // var x = 15, y = x;
-
-  console.log(element + ":");
-  console.log("     %w: " + percentW + ", %h: " + percentH);
-  console.log("     w: " + w + ", h: " + h);
-  console.log("     x: " + x + ", y: " + y);
-
-  var ratio = PIXEL_RATIO;
+  var el = document.getElementById(element),
+      $el = $(el),
+      ctxt = el.getContext('2d'),
+      text = $el.data('text'),
+  // data defined in element -- defaults for titles
+      percentW = $el.data('percentw') || 1,
+      percentH = $el.data('percenth') || 0.1,
+      paddingW = $el.data('paddingw') || 0.1,
+      paddingH = $el.data('paddingh') || 0.8,
+      lineHeight = $el.data('lineheight') || 60,
+      color = $el.data('color') || '#ffffff',
+  // width and height relative to window
+      $window = $(window),
+      w = $window.width() * percentW,
+      h = $window.height() * percentH,
+  // text baseline start
+      x = w * paddingW,
+      y = h * paddingH,
+  // ratio for scaling on high-dpi displays
+      ratio = PIXEL_RATIO;
 
   el.width = w * ratio;
   el.height = h * ratio;
@@ -76,6 +72,11 @@ function renderText(element) {
   ctxt.fillStyle = color;
   ctxt.fillRect(0, 0, w, h);
   ctxt.globalCompositeOperation = 'destination-out';
+
+  // console.log(element + ":");
+  // console.log("     %w: " + percentW + ", %h: " + percentH);
+  // console.log("     w: " + w + ", h: " + h);
+  // console.log("     x: " + x + ", y: " + y);
 
   var maxWidth = w-(x*2);
   wrapText(ctxt, text, x, y, maxWidth, lineHeight);
