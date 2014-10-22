@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require modernizr
+//= require viewport_buggyfill
 //= require_tree .

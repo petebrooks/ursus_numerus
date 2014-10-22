@@ -63,6 +63,40 @@ section.module {
   }
 }
 
+// @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+//   .full {
+//     height: 1024px;
+//   }
+//   .title {
+//     height: 102px;
+//   }
+// }
+ 
+// /** 
+//  * iPad with landscape orientation.
+//  */
+// @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+//   .full {
+//     height: 768px;
+//   }
+//   .title {
+//     height: 76px;
+//   }
+// }
+ 
+// /**
+//  * iPhone 5
+//  * You can also target devices with aspect ratio.
+//  */
+// @media screen and (device-aspect-ratio: 40/71) {
+//   section.full {
+//     height: 1136px;
+//   }
+//   section.title {
+//     height: 113px;
+//   }
+// }
+
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 42px;
