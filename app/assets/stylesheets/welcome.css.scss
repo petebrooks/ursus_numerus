@@ -42,15 +42,17 @@ section.module {
     //   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     // }
   }
-  &.parallax-1 {
+  &#intro {
     background-image: url('1.jpg');
   }
-  &.parallax-2 {
+  &#projects {
     background-image: url('2.jpg');
   }
-  &.parallax-3 {
-    // background-image: url('3.jpg');
-    background-color: yellow;
+  &#background {
+    background-image: url('1.jpg');
+  }
+  &#contact {
+    background-image: url('3.jpg')
   }
   &.title {
     height: 10vh;

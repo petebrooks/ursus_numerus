@@ -10,27 +10,15 @@ var PIXEL_RATIO = (function () {
     return dpr / bsr;
 })();
 
-
-createHiDPICanvas = function(w, h, ratio) {
-    if (!ratio) { ratio = PIXEL_RATIO; }
-    var c = document.createElement("canvas");
-    c.width = w * ratio;
-    c.height = h * ratio;
-    c.style.width = w + "px";
-    c.style.height = h + "px";
-    c.getContext("2d").setTransform(ratio, 0, 0, ratio, 0, 0);
-    return c;
-}
-
-function wrapText(context, text, x, y, maxWidth, lineHeight) {
+function wrapText(ctxt, text, x, y, maxWidth, lineHeight) {
   var words = text.split(" ");
   var line = "";
   for(var n = 0; n < words.length; n++) {
     var testLine = line + words[n] + " ";
-    var metrics = context.measureText(testLine);
+    var metrics = ctxt.measureText(testLine);
     var testWidth = metrics.width;
     if(testWidth > maxWidth) {
-      context.fillText(line, x, y);
+      ctxt.fillText(line, x, y);
       line = words[n] + " ";
       y += lineHeight;
     }
@@ -38,7 +26,7 @@ function wrapText(context, text, x, y, maxWidth, lineHeight) {
       line = testLine;
     }
   }
-  context.fillText(line, x, y);
+  ctxt.fillText(line, x, y);
 }
 
 function renderText(element) {
@@ -61,8 +49,11 @@ function renderText(element) {
       x = w * paddingW,
       y = h * paddingH,
   // ratio for scaling on high-dpi displays
-      ratio = PIXEL_RATIO;
+      ratio = PIXEL_RATIO,
+  // max width for word wrap
+      maxWidth = w-(x*2);
 
+  // scale for high dpi displays
   el.width = w * ratio;
   el.height = h * ratio;
   el.style.width = w + 'px';
@@ -73,14 +64,13 @@ function renderText(element) {
   ctxt.fillRect(0, 0, w, h);
   ctxt.globalCompositeOperation = 'destination-out';
 
+  wrapText(ctxt, text, x, y, maxWidth, lineHeight);
+  ctxt.setTransform(ratio, 0, 0, ratio, 0, 0);
+
   // console.log(element + ":");
   // console.log("     %w: " + percentW + ", %h: " + percentH);
   // console.log("     w: " + w + ", h: " + h);
   // console.log("     x: " + x + ", y: " + y);
-
-  var maxWidth = w-(x*2);
-  wrapText(ctxt, text, x, y, maxWidth, lineHeight);
-  ctxt.setTransform(ratio, 0, 0, ratio, 0, 0);
 }
 
 function renderTextArray(arr) {
