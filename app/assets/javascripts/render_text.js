@@ -43,8 +43,8 @@ function renderText(element) {
       color = $el.data('color') || '#ffffff',
   // width and height relative to window
       $window = $(window),
-      w = $window.width() * percentW,
-      h = $window.height() * percentH,
+      w = $window.width() * percentW + 4,
+      h = $window.height() * percentH + 4,
   // text baseline start
       x = w * paddingW,
       y = h * paddingH,
@@ -58,7 +58,7 @@ function renderText(element) {
   el.height = h * ratio;
   el.style.width = w * ratio + 'px';
   // el.style.width = $window.width() + 'px';
-  el.style.height = h * ratio + 1 + 'px';
+  el.style.height = h * ratio + 'px';
   // el.style.height = $window.height() + 'px';
 
   ctxt.font = "Bold 2.8rem 'Helvetica'";
