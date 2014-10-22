@@ -8,9 +8,13 @@
 
   %main
 
-    %section.module.parallax#intro
+    %section.module.parallax.full#intro
       %canvas#introTitle{data: {percentH: 1, paddingW: 0.2, paddingH: 0.3, text: "my name is: Pete Brooks and: I like to write code"}}
+      .arrow
+        %a{href: "#projects"}
+          %i.icon.ion-chevron-down.animate-fade
 
+    %a{name: "projects"}
     %section.module.parallax.title#projects
       %canvas#projectsTitle{data: {text: "projects"}}
     

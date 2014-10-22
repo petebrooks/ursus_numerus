@@ -6,7 +6,7 @@ var PIXEL_RATIO = (function () {
               ctx.msBackingStorePixelRatio ||
               ctx.oBackingStorePixelRatio ||
               ctx.backingStorePixelRatio || 1;
-
+    console.log("dpr: " + dpr +", bsr: " + bsr + ", ratio: " + dpr / bsr);
     return dpr / bsr;
 })();
 
@@ -56,8 +56,10 @@ function renderText(element) {
   // scale for high dpi displays
   el.width = w * ratio;
   el.height = h * ratio;
-  el.style.width = w + 'px';
-  el.style.height = h + 'px';
+  el.style.width = w * ratio + 'px';
+  // el.style.width = $window.width() + 'px';
+  el.style.height = h * ratio + 1 + 'px';
+  // el.style.height = $window.height() + 'px';
 
   ctxt.font = "Bold 2.8rem 'Helvetica'";
   ctxt.fillStyle = color;
@@ -67,10 +69,10 @@ function renderText(element) {
   wrapText(ctxt, text, x, y, maxWidth, lineHeight);
   ctxt.setTransform(ratio, 0, 0, ratio, 0, 0);
 
-  // console.log(element + ":");
-  // console.log("     %w: " + percentW + ", %h: " + percentH);
-  // console.log("     w: " + w + ", h: " + h);
-  // console.log("     x: " + x + ", y: " + y);
+  console.log(element + ":");
+  console.log("     %w: " + percentW + ", %h: " + percentH);
+  console.log("     w: " + w + ", h: " + h);
+  console.log("     x: " + x + ", y: " + y);
 }
 
 function renderTextArray(arr) {

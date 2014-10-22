@@ -19,10 +19,9 @@ section.module p:last-child {
 }
 section.module {
   &.content {
-    padding: 40px 0;
+    padding: 2rem 0;
   }
   &.parallax {
-    height: 600px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,7 +29,9 @@ section.module {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-      width: 100vw;
+    width: 100%; // fallback
+    width: 100vw;
+    height: 600px; // fallback
     height: 100vh;
     // h1 {
     //   color: rgba(255, 255, 255, 0.8);
@@ -57,6 +58,9 @@ section.module {
   &.title {
     height: 10vh;
   }
+  &.full {
+    height: 100vh;
+  }
 }
 
 @media all and (min-width: 600px) {
@@ -73,5 +77,40 @@ section.module {
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
+  }
+}
+
+@keyframes fadeIO {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes fadeIO{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes fadeIO{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes fadeIO{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+div.arrow {
+  position: absolute;
+  bottom: 5rem;
+  width: 100%;
+  text-align: center;
+  i.animate-fade {
+    font-size: 2rem;
+     -webkit-animation: fadeIO 4s infinite;
+     -moz-animation: fadeIO 4s infinite;
+     -o-animation: fadeIO 4s infinite;
+      animation: fadeIO 4s infinite;
   }
 }
