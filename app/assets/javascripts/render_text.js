@@ -43,29 +43,41 @@ function wrapText(context, text, x, y, maxWidth, lineHeight) {
 
 function renderText(element) {
   var el = document.getElementById(element);
+  var $el = $(el);
   var ctxt = el.getContext('2d');
   var text = $el.data('text');
 
-  var winW = $(window).width() * percentH;
-  var winH = $(window).height() * percentW;
+  var percentW = $el.data('percentw') || 1;
+  var percentH = $el.data('percenth') || 1;
+  var paddingW = $el.data('paddingw') || 0.2;
+  var paddingH = $el.data('paddingh') || 0.3;
+
+  var w = $(window).width() * percentW;
+  var h = $(window).height() * percentH;
 
   var lineHeight = 60;
   var color = '#ffffff';
-  var x = winW * .2, y = x;
+  var x = w * paddingW, y = h * paddingH;
+  // var x = 15, y = x;
+
+  console.log(element + ":");
+  console.log("     %w: " + percentW + ", %h: " + percentH);
+  console.log("     w: " + w + ", h: " + h);
+  console.log("     x: " + x + ", y: " + y);
 
   var ratio = PIXEL_RATIO;
 
-  el.width = winW * ratio;
-  el.height = winH * ratio;
-  el.style.width = winW + 'px';
-  el.style.height = winH + 'px';
+  el.width = w * ratio;
+  el.height = h * ratio;
+  el.style.width = w + 'px';
+  el.style.height = h + 'px';
 
   ctxt.font = "Bold 2.8rem 'Helvetica'";
   ctxt.fillStyle = color;
-  ctxt.fillRect(0, 0, winW, winH);
+  ctxt.fillRect(0, 0, w, h);
   ctxt.globalCompositeOperation = 'destination-out';
 
-  var maxWidth = winW-(x*2);
+  var maxWidth = w-(x*2);
   wrapText(ctxt, text, x, y, maxWidth, lineHeight);
   ctxt.setTransform(ratio, 0, 0, ratio, 0, 0);
 }

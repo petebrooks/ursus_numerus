@@ -96,7 +96,7 @@ main {
   width: 100%;
   // max-width: 960px;
   margin: 0 auto;
-  padding: 5%;
+  padding: 0 10%;
 }
 
 /* ============================================================
@@ -106,6 +106,7 @@ main {
   padding: 5px 0;
   background-color: #fff;
   text-align: center;
+  height: 10vh;
 }
 .info-bar a.icon {
   display: inline-block;
