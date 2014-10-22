@@ -53,6 +53,10 @@ function renderText(element) {
   // max width for word wrap
       maxWidth = w-(x*2);
 
+  if ($window.width() < 500) {
+    lineHeight *= 0.7;
+  };
+
   // scale for high dpi displays
   el.width = w * ratio;
   el.height = h * ratio;
@@ -62,6 +66,9 @@ function renderText(element) {
   // el.style.height = $window.height() + 'px';
 
   ctxt.font = "Bold 2.8rem 'Helvetica'";
+  if($window.width() < 500) {
+    ctxt.font = "Bold 1.9rem 'Helvetica'";
+  }
   ctxt.fillStyle = color;
   ctxt.fillRect(0, 0, w, h);
   ctxt.globalCompositeOperation = 'destination-out';
