@@ -82,6 +82,9 @@ table {
   &.full {
     width: 100%;
   }
+  &.four-fifths {
+    width: 80%;
+  }
   &.three-quarters {
     width: 75%;
   }
@@ -90,6 +93,9 @@ table {
   }
   &.quarter {
     width: 25%;
+  }
+  &.fifth {
+    width: 20%;
   }
 }
 

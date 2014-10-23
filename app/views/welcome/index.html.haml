@@ -7,7 +7,7 @@
   /     %a.icon.cmn-archive{data:{title:"Contact"}}
 
   %main
-
+    %a{name: "intro"}
     %section#intro
       .module.parallax.full#intro
         %canvas#introTitle{data: {percentH: 1, paddingW: 0.2, paddingH: 0.3, text: "my name is: Pete Brooks and: I like to write code"}}
@@ -20,7 +20,7 @@
     %section
       .module.parallax.title#projects
         %canvas#projectsTitle{data: {text: "projects"}}
-      .module.content
+      .module.content.full
         .container
           .row.clearfix
             .col.quarter.animate-icon
@@ -45,15 +45,56 @@
     %a{name: "background"}
     %section
       .module.parallax.title#background
-        %canvas#backgroundTitle{data: {text: "background"}}      
-      .module.content.half
-        .container
-          %p Ruby, Javascript, Rails, Sinatra, Angular, React, D3, HTML, CSS, jQuery, Postgres, SQLite3, Processing
-      .module.parallax.title#background
         %canvas#tikTitle{data: {text: "things I know"}}
       .module.content.half
+        .container.mobile-only
+          %p
+            Ruby, Javascript, HTML + CSS, Processing, Angular, Rails, Sinatra, jQuery, React, D3, Grunt, Postgres, SQLite3
+        .container.wide-only
+          .row.clearfix.close
+            .col.fifth
+              %p
+                Languages
+            .col.four-fifths
+              %p
+                Ruby, Javascript, HTML + CSS, Processing
+          .row.clearfix.close
+            .col.fifth
+              %p
+                Frameworks
+            .col.four-fifths
+              %p
+                Angular, Rails, Sinatra
+          .row.clearfix.close
+            .col.fifth
+              %p
+                Libraries
+            .col.four-fifths
+              %p
+                jQuery, React, D3
+          .row.clearfix.close
+            .col.fifth
+              %p
+                Other
+            .col.four-fifths
+              %p
+                Grunt, Yeoman, Postgres, SQLite3
+
+      .module.parallax.title#background
+        %canvas#backgroundTitle{data: {text: "education"}}      
+      .module.content.half
         .container
-          %p Ruby, Javascript, Rails, Sinatra, Angular, React, D3, HTML, CSS, jQuery, Postgres, SQLite3, Processing
+          %p
+            University of Chicago
+          %small
+            2010 - 2014
+          %small
+            BA, Philosophy
+          %p
+            Dev Bootcamp
+          %small
+            June 2014 - October 2014
+
         .arrow
           %a{href: "#contact"}
             %i.icon.ion-chevron-down.animate-fade
@@ -62,7 +103,7 @@
     %section
       .module.parallax.title#contact
         %canvas#contactTitle{data: {text: "contact"}}
-      .module.content
+      .module.content.full
         .container
           %p 
             peterossbrooks@gmail.com
@@ -73,5 +114,8 @@
               %i.icon.ion-social-github
             %a{href: "http://www.linkedin.com/petebrooks", target: 'blank'}
               %i.icon.ion-social-linkedin
+        .arrow
+          %a{:href => "#intro"}
+            %i.icon.ion-chevron-up.animate-fade
 
 / # = javascript_include_tag 'welcome.js'
