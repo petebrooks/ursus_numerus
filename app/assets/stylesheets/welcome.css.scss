@@ -58,6 +58,9 @@ section {
     &.full {
       height: 100vh;
     }
+    &.title {
+      height: 11vh;
+    }
   }
   &#intro {
     background-image: url('antarctica_dms.jpg');
@@ -71,9 +74,6 @@ section {
   }
   &#contact {
     background-image: url('arctic_plane.jpg')
-  }
-  &.title {
-    height: 11vh;
   }
   // .container {
   //   position: absolute;

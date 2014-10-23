@@ -38,6 +38,7 @@ GEM
     coffee-script-source (1.8.0)
     erubis (2.7.0)
     execjs (2.2.2)
+    fastclick-rails (1.0.1)
     haml (4.0.5)
       tilt
     hike (1.2.3)
@@ -117,6 +118,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  fastclick-rails
   haml
   ionicons-rails
   jbuilder (~> 2.0)
