@@ -14,5 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require fastclick
-//= require modernizr
+//= require isMobile.min
 //= require_tree .
