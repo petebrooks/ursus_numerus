@@ -6,7 +6,6 @@ var PIXEL_RATIO = (function () {
               ctx.msBackingStorePixelRatio ||
               ctx.oBackingStorePixelRatio ||
               ctx.backingStorePixelRatio || 1;
-    console.log("dpr: " + dpr +", bsr: " + bsr + ", ratio: " + dpr / bsr);
     return dpr / bsr;
 })();
 
