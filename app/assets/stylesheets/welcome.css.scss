@@ -2,6 +2,7 @@
   SECTIONS
 ============================================================ */
 section {
+  position: relative;
   min-height: 100vh;
   width: 100%;
   width: 100vw;
@@ -50,16 +51,16 @@ section {
     // }
   }
   &#intro {
-    background-image: url('1.jpg');
+    background-image: url('antarctica_dms.jpg');
   }
   &#projects {
-    background-image: url('2.jpg');
+    background-image: url('access-early-morning-test.jpg');
   }
   &#background {
-    background-image: url('1.jpg');
+    background-image: url('kingfire_oli.jpg');
   }
   &#contact {
-    background-image: url('3.jpg')
+    background-image: url('arctic_plane.jpg')
   }
   &.title {
     height: 10vh;
@@ -163,12 +164,16 @@ div.arrow {
   width: 100%;
   text-align: center;
   i.animate-fade {
-    font-size: 2rem;
+    // font-size: 2rem;
      -webkit-animation: fadeIO 4s;
      -moz-animation: fadeIO 4s;
      -o-animation: fadeIO 4s;
       animation: fadeIO 4s;
   }
+}
+
+i {
+  font-size: 2rem;
 }
 
 .animate-icon {

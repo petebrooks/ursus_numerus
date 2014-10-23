@@ -1,4 +1,5 @@
 var txtIds = ['introTitle', 'projectsTitle', 'backgroundTitle', 'contactTitle'];
+// var txtIds = ['introTitle', 'projectsTitle', 'contactTitle'];
 
 $(document).ready(function() {
 

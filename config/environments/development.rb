@@ -36,4 +36,5 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   config.assets.prefix = "/dev-assets"
+  config.assets.compile = true
 end

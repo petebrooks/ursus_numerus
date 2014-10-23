@@ -10,8 +10,8 @@
 
     %section
       .module.parallax.full#intro
-        / %canvas#introTitle{data: {percentH: 1, paddingW: 0.2, paddingH: 0.3, text: "my name is: Pete Brooks and: I like to write code"}}
-        %canvas#introTitle{data: {percentH: 1, paddingW: 0.2, paddingH: 0.3, text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."}}
+        %canvas#introTitle{data: {percentH: 1, paddingW: 0.2, paddingH: 0.3, text: "my name is: Pete Brooks and: I like to write code"}}
+        / %canvas#introTitle{data: {percentH: 1, paddingW: 0.2, paddingH: 0.3, text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."}}
         .arrow
           %a{href: "#projects"}
             %i.icon.ion-chevron-down.animate-fade
@@ -28,11 +28,8 @@
             .col.three-quarters
               %p Context
               %p A real-time chat platform for interacting with other users currently browsing the same web page. It unifies web commenting on a single platform and on a live basis. The Context platform is site agnostic - it will work on any page on the Internet.
-              %p>
-                %a{href: "https://chrome.google.com/webstore/detail/context/bdedbolefbekcmfkjnffkoabnclfbcmh?utm_source=chrome-ntp-icon"}<
-                  Chrome Web Store
-                %a{href: "https://github.com/ryanbahniuk/context"}<
-                  Github
+              %p
+                <a href: "https://chrome.google.com/webstore/detail/context/bdedbolefbekcmfkjnffkoabnclfbcmh?utm_source=chrome-ntp-icon">Chrome Web Store</a>  |  <a href: "https://github.com/ryanbahniuk/context">Github</a>
           .row.clearfix
             .col.quarter.animate-icon
               = render :partial => "working_title_icon"
@@ -41,19 +38,33 @@
               %p A writing collaboration engine where users can contribute to branches of a project as well as view a tree visualization of a project's evolution.
               %p
                 %a{href: "https://github.com/petebrooks/working-title"} Github
+      .arrow
+        %a{href: "#background"}
+          %i.icon.ion-chevron-down.animate-fade
 
+    %a{name: "background"}
     %section
       .module.parallax.title#background
         %canvas#backgroundTitle{data: {text: "background"}}
       .module.content
         .container
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.
+          %p Ruby, Javascript, Rails, Sinatra, Angular, React, D3, HTML, CSS, jQuery, Postgres, SQLite3, Processing
+      .arrow
+        %a{href: "#contact"}
+          %i.icon.ion-chevron-down.animate-fade
 
+    %a{name: "contact"}
     %section
       .module.parallax.title#contact
         %canvas#contactTitle{data: {text: "contact"}}
       .module.content
         .container
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.
+          %p 
+            peterossbrooks@gmail.com
+          %p
+            = link_to 'resume', '/public/resume.pdf', {target: '_blank'}
+          %p
+            %a{href: "http://www.github.com/petebrooks", target: 'blank'}
+              %i.icon.ion-social-github
+            %a{href: "http://www.linkedin.com/petebrooks", target: 'blank'}
+              %i.icon.ion-social-linkedin
