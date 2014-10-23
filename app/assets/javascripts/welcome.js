@@ -32,4 +32,8 @@ $(document).ready(function() {
     });
   });
 
+  if (Modernizr.touch) {
+    $('.hide').show();
+  };
+
 });
