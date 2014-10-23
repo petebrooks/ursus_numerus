@@ -115,23 +115,23 @@ section.module {
 }
 
 @keyframes fadeIO {
-  0%   { opacity:1; }
-  50%  { opacity:0; }
+  0%   { opacity:0; }
+  // 50%  { opacity:0; }
   100% { opacity:1; }
 }
 @-o-keyframes fadeIO{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
+  0%   { opacity:0; }
+  // 50%  { opacity:0; }
   100% { opacity:1; }
 }
 @-moz-keyframes fadeIO{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
+  0%   { opacity:0; }
+  // 50%  { opacity:0; }
   100% { opacity:1; }
 }
 @-webkit-keyframes fadeIO{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
+  0%   { opacity:0; }
+  // 50%  { opacity:0; }
   100% { opacity:1; }
 }
 
@@ -142,10 +142,10 @@ div.arrow {
   text-align: center;
   i.animate-fade {
     font-size: 2rem;
-     -webkit-animation: fadeIO 4s infinite;
-     -moz-animation: fadeIO 4s infinite;
-     -o-animation: fadeIO 4s infinite;
-      animation: fadeIO 4s infinite;
+     -webkit-animation: fadeIO 4s;
+     -moz-animation: fadeIO 4s;
+     -o-animation: fadeIO 4s;
+      animation: fadeIO 4s;
   }
 }
 
