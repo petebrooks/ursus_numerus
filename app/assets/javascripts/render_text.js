@@ -76,10 +76,10 @@ function renderText(element) {
   wrapText(ctxt, text, x, y, maxWidth, lineHeight);
   ctxt.setTransform(ratio, 0, 0, ratio, 0, 0);
 
-  console.log(element + ":");
-  console.log("     %w: " + percentW + ", %h: " + percentH);
-  console.log("     w: " + w + ", h: " + h);
-  console.log("     x: " + x + ", y: " + y);
+  // console.log(element + ":");
+  // console.log("     %w: " + percentW + ", %h: " + percentH);
+  // console.log("     w: " + w + ", h: " + h);
+  // console.log("     x: " + x + ", y: " + y);
 }
 
 function renderTextArray(arr) {
