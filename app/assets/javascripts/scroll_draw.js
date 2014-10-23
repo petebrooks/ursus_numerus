@@ -1,10 +1,8 @@
 function checkPaths() {
   $('.delayAnimate.ready').each(function(){
      var $this = $(this),
-         scroll = $(window).height() * 1.2,
+         scroll = $(window).scrollTop() + $(window).height();
          offset = $this.offset().top;
-         debugger
-         // console.log("scroll: " + scroll + " offset: " + offset);
      if(scroll > offset) {
         var paths = $this.find('path');
         triggerDraw(paths);
