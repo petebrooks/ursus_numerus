@@ -1,25 +1,31 @@
 /* ============================================================
   SECTIONS
 ============================================================ */
-section.module:last-child {
+section {
+  min-height: 100vh;
+  width: 100%;
+  width: 100vw;
+}
+.module:last-child {
   margin-bottom: 0;
 }
-section.module h2 {
+.module h2 {
   margin-bottom: 40px;
   font-family: "Roboto Slab", serif;
   font-size: 30px;
 }
-section.module p {
+.module p {
   margin-bottom: 40px;
   font-size: 16px;
   font-weight: 300;
 }
-section.module p:last-child {
+.module p:last-child {
   margin-bottom: 0;
 }
-section.module {
+.module {
   &.content {
     padding: 2rem 0;
+    // position: relative;
   }
   &.parallax {
     background-position: 50% 50%;
@@ -61,6 +67,12 @@ section.module {
   &.full {
     height: 100vh;
   }
+  // .container {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  // }
 }
 
 // @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
@@ -113,6 +125,16 @@ section.module {
     font-size: 160px;
   }
 }
+@media all and (max-width: 600px) {
+  .col.quarter, .col.three-quarters {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    float: none;
+  }
+  .animate-icon {
+    // margin-bottom: 3rem;
+  }
+}
 
 @keyframes fadeIO {
   0%   { opacity:0; }
@@ -150,5 +172,9 @@ div.arrow {
 }
 
 .animate-icon {
-  padding: 0 5%;
+  padding: 1% 5% 1% 0;
+  text-align: center;
+  svg {
+    max-width: 50vw;
+  }
 }
