@@ -62,10 +62,39 @@ table {
   box-sizing: border-box;
 }
 
+.clearfix:before,
 .clearfix:after {
-  content: "";
+  content: " ";
   display: table;
+}
+ 
+.clearfix:after {
   clear: both;
+}
+ 
+.clearfix {
+  *zoom: 1;
+}
+
+// GRID
+.col {
+  float: left;
+  &.full {
+    width: 100%;
+  }
+  &.three-quarters {
+    width: 75%;
+  }
+  &.half {
+    width: 50%;
+  }
+  &.quarter {
+    width: 25%;
+  }
+}
+
+.row {
+  margin-bottom: 1rem;
 }
 
 /* ============================================================
@@ -302,72 +331,7 @@ footer .copyright a {
     text-align: right;
   }
 }
-/* ============================================================
-  FUSION ADS
-============================================================ */
-#fusionads {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 20;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.95);
-  font-size: 12px;
-  line-height: 1.2;
-  -webkit-box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-#fusionads .fusion-wrap {
-  display: block;
-  margin: 0 auto 10px auto;
-  width: 130px;
-}
-
-#fusionads a.fusion-text {
-  display: block;
-  color: #787878;
-}
-
-#fusionads a.fusion-img {
-  display: block;
-  margin-bottom: 10px;
-  width: 130px;
-  height: 100px;
-  background-color: #fff;
-}
-
-#fusionads a.fusion-img img {
-  display: block;
-  margin: 0 0 10px 0;
-}
-
-#fusionads a.fusion-poweredby {
-  color: #b4b4b4;
-}
-#fusionads a.fusion-poweredby:hover {
-  color: #818181;
-}
-
-#close-fusionad {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 30;
-  width: 20px;
-  height: 20px;
-  background-color: #282828;
-  text-align: center;
-  line-height: 20px;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-}
-
-/* ============================================================
-  TEXT LEVEL SEMANTICS
-============================================================ */
 a {
   text-decoration: none;
   color: #b4b4b4;
