@@ -15,18 +15,23 @@ section {
   font-size: 30px;
 }
 .module p {
-  margin-bottom: 40px;
-  font-size: 16px;
+  // margin-bottom: 1rem;
+  font-size: 1rem;
   font-weight: 300;
-}
-.module p:last-child {
-  margin-bottom: 0;
+  &:not(:first-child) {
+    margin-top: 0.5rem;
+  }
 }
 .module {
   &.content {
     padding: 2rem 0;
     position: relative;
-    height: 89vh;
+    &.half {
+      height: 39vh;
+    }
+    &.full {
+      min-height: 89vh;
+    }
   }
   &.parallax {
     background-position: 50% 50%;
@@ -49,6 +54,9 @@ section {
     //   text-transform: uppercase;
     //   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     // }
+    &.full {
+      height: 100vh;
+    }
   }
   &#intro {
     background-image: url('antarctica_dms.jpg');
@@ -65,9 +73,6 @@ section {
   }
   &.title {
     height: 11vh;
-  }
-  &.full {
-    height: 100vh;
   }
   // .container {
   //   position: absolute;
@@ -121,6 +126,12 @@ section {
   section.module.parallax h1 {
     font-size: 96px;
   }
+  .mobile-only {
+    display: none;
+  }
+  .wide-only {
+    display: block;
+  }
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
@@ -128,13 +139,24 @@ section {
   }
 }
 @media all and (max-width: 600px) {
-  .col.quarter, .col.three-quarters {
+  .col.quarter, .col.three-quarters, .col.fifth, .col.four-fifths {
     width: 100%;
     margin: 0 0 2rem 0;
     float: none;
   }
-  .animate-icon {
-    // margin-bottom: 3rem;
+  .col.fifth, .col.four-fifths {
+    margin: 0;
+  }
+  .module.content {
+    .full {
+      min-height: 89vh;
+    }
+  }
+  .mobile-only {
+    display: block;
+  }
+  .wide-only {
+    display: none;
   }
 }
 
@@ -161,7 +183,7 @@ section {
 
 div.arrow {
   position: absolute;
-  bottom: 5rem;
+  bottom: 3.5rem;
   width: 100%;
   text-align: center;
   i.animate-fade {
@@ -183,4 +205,12 @@ i {
   svg {
     max-width: 50vw;
   }
+}
+
+small {
+  display: block
+}
+
+.close {
+  margin-bottom: 0.5rem;
 }
