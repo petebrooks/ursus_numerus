@@ -1,5 +1,6 @@
 function checkPaths() {
   $('.delayAnimate.ready').each(function(){
+    console.log("checkPaths");
      var $this = $(this),
          scroll = $(window).scrollTop() + $(window).height();
          offset = $this.offset().top;
