@@ -54,7 +54,7 @@ function renderText(element) {
 
   if ($window.width() < 650) {
     lineHeight *= 0.7;
-    y = h * 0.2;
+    y *= 0.7;
   };
 
   // scale for high dpi displays
