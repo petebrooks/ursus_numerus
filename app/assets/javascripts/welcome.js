@@ -34,6 +34,7 @@ $(document).ready(function() {
 
   if (!isMobile.any) {
     $('.hide').hide();
+  } else {
     $('.arrow').hide();
   };
 
