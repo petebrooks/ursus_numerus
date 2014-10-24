@@ -1,11 +1,11 @@
 var txtIds = ['introTitle', 'projectsTitle', 'backgroundTitle', 'tikTitle', 'contactTitle'];
 // var txtIds = ['introTitle', 'projectsTitle', 'contactTitle'];
 
-window.addEventListener('load', function() {
-    FastClick.attach(document.body);
-}, false);
 
 $(document).ready(function() {
+  window.addEventListener('load', function() {
+      FastClick.attach(document.body);
+  }, false);
 
   renderTextArray(txtIds);
 

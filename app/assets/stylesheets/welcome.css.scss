@@ -113,7 +113,7 @@ section {
 @media all and (max-width: 600px) {
   .col.quarter, .col.three-quarters, .col.fifth, .col.four-fifths {
     width: 100%;
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem;
     float: none;
   }
   .col.fifth, .col.four-fifths {
@@ -158,10 +158,10 @@ div.arrow {
   width: 100%;
   text-align: center;
   i.animate-fade {
-     -webkit-animation: fadeIO 4s;
-     -moz-animation: fadeIO 4s;
-     -o-animation: fadeIO 4s;
-      animation: fadeIO 4s;
+     -webkit-animation: fadeIO 3s;
+     -moz-animation: fadeIO 3s;
+     -o-animation: fadeIO 3s;
+      animation: fadeIO 3s;
   }
 }
 
@@ -183,5 +183,5 @@ small {
 }
 
 .close {
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
 }

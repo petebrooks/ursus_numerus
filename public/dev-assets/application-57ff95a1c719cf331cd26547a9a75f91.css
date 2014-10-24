@@ -1,0 +1,3709 @@
+/* ============================================================
+  RESET - http://meyerweb.com/eric/tools/css/reset/
+============================================================ */
+/* line 17, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 32, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+body {
+  line-height: 1;
+}
+
+/* line 36, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* ============================================================
+  BOX SIZING & CLEARFIX
+============================================================ */
+/* line 60, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 67, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 72, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 76, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 81, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.col {
+  float: left;
+}
+/* line 83, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.col.full {
+  width: 100%;
+}
+/* line 86, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.col.four-fifths {
+  width: 80%;
+}
+/* line 89, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.col.three-quarters {
+  width: 75%;
+}
+/* line 92, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.col.half {
+  width: 50%;
+}
+/* line 95, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.col.quarter {
+  width: 25%;
+}
+/* line 98, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.col.fifth {
+  width: 20%;
+}
+
+/* line 103, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.row {
+  margin-bottom: 3rem;
+}
+
+/* ============================================================
+  HTML & BODY
+============================================================ */
+/* line 110, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+body {
+  background-color: #b4b4b4;
+  color: #787878;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+/* line 121, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 126, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+main {
+  display: block;
+  background-color: #fff;
+}
+
+/* line 131, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+/* ============================================================
+  INFO BAR
+============================================================ */
+/* ============================================================
+  HEADER & SITE TITLE
+============================================================ */
+/* ============================================================
+  FOOTER
+============================================================ */
+@media all and (min-width: 600px) {
+  /* line 322, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+  footer aside {
+    margin-bottom: 0;
+    float: left;
+    width: 33.3333%;
+  }
+
+  /* line 327, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+  footer nav ul {
+    text-align: left;
+  }
+
+  /* line 330, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+  footer nav li {
+    display: block;
+  }
+
+  /* line 333, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+  footer nav a {
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 337, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+  footer .logo {
+    text-align: right;
+  }
+}
+/* line 342, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+a {
+  text-decoration: none;
+  color: #b4b4b4;
+}
+
+/* line 347, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/bass.css.scss */
+a:hover {
+  color: #818181;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+/* line 5, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+section {
+  min-height: 100vh;
+  width: 100%;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* line 12, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module:last-child {
+  margin-bottom: 0;
+}
+/* line 16, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+/* line 22, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* line 26, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module p:not(:first-child) {
+  margin-top: 0.5rem;
+}
+/* line 29, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module p.hide {
+  margin-top: 5rem;
+}
+/* line 34, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module.content {
+  padding: 2rem 0;
+  position: relative;
+}
+/* line 37, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module.content.half {
+  height: 39vh;
+  height: 250px;
+}
+/* line 41, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module.content.full {
+  min-height: 89vh;
+  min-height: 600px;
+}
+/* line 47, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module.parallax {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  width: 100vw;
+  height: 600px;
+  height: 100vh;
+}
+/* line 68, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module.parallax.full {
+  height: 100vh;
+}
+/* line 71, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module.parallax.title {
+  height: 11vh;
+  min-height: 40px;
+}
+/* line 77, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module#intro {
+  background-image: url("antarctica_dms.jpg");
+}
+/* line 80, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module#projects {
+  background-image: url("bopps_nightstarshot.jpg");
+}
+/* line 84, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module#background {
+  background-image: url("kingfire_oli.jpg");
+}
+/* line 87, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.module#contact {
+  background-image: url("arctic_plane.jpg");
+}
+
+@media all and (min-width: 600px) {
+  /* line 93, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  section.module h2 {
+    font-size: 42px;
+  }
+
+  /* line 96, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  section.module p {
+    font-size: 20px;
+  }
+
+  /* line 99, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+
+  /* line 102, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  .mobile-only {
+    display: none;
+  }
+
+  /* line 105, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  .wide-only {
+    display: block;
+  }
+}
+@media all and (min-width: 960px) {
+  /* line 110, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+@media all and (max-width: 600px) {
+  /* line 115, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  .col.quarter, .col.three-quarters, .col.fifth, .col.four-fifths {
+    width: 100%;
+    margin: 0 0 1rem 0;
+    float: none;
+  }
+
+  /* line 120, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  .col.fifth, .col.four-fifths {
+    margin: 0;
+  }
+
+  /* line 124, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  .module.content .full {
+    min-height: 89vh;
+  }
+
+  /* line 128, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  .mobile-only {
+    display: block;
+  }
+
+  /* line 131, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  .wide-only {
+    display: none;
+  }
+
+  /* line 134, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  .arrow {
+    display: none;
+  }
+}
+@keyframes fadeIO {
+  /* line 140, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 141, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIO {
+  /* line 144, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 145, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIO {
+  /* line 148, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 149, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIO {
+  /* line 152, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 153, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 156, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+div.arrow {
+  position: absolute;
+  bottom: 3.5rem;
+  width: 100%;
+  text-align: center;
+}
+/* line 161, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+div.arrow i.animate-fade {
+  -webkit-animation: fadeIO 3s;
+  -moz-animation: fadeIO 3s;
+  -o-animation: fadeIO 3s;
+  animation: fadeIO 3s;
+}
+
+/* line 169, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+i {
+  font-size: 2rem;
+}
+
+/* line 173, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.animate-icon {
+  padding: 1% 5% 1% 0;
+  text-align: center;
+}
+/* line 176, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.animate-icon svg {
+  max-width: 20vw;
+  max-height: 20vw;
+}
+
+/* line 182, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+small {
+  display: block;
+}
+
+/* line 186, /Users/petebrooks/code/ursus_numerus/app/assets/stylesheets/welcome.css.scss */
+.close {
+  margin-bottom: 0.5rem;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+ */
+
+/*!
+  Ionicons, v1.4.1
+  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
+  https://twitter.com/helloimben  https://twitter.com/ionicframework
+  MIT License: https://github.com/driftyco/ionicons
+*/
+@font-face {
+  font-family: "Ionicons";
+  src: url(/dev-assets/ionicons.eot?v=1.4.1);
+  src: url(/dev-assets/ionicons.eot?v=1.4.1#iefix) format("embedded-opentype"), url(/dev-assets/ionicons.ttf?v=1.4.1) format("truetype"), url(/dev-assets/ionicons.woff?v=1.4.1) format("woff"), url(/dev-assets/ionicons.svg?v=1.4.1#Ionicons) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-font.scss */
+.ion, .ion-loading-a,
+.ion-loading-b,
+.ion-loading-c,
+.ion-loading-d,
+.ion-looping,
+.ion-refreshing,
+.ion-ios7-reloading, .ionicons,
+.ion-alert,
+.ion-alert-circled,
+.ion-android-add,
+.ion-android-add-contact,
+.ion-android-alarm,
+.ion-android-archive,
+.ion-android-arrow-back,
+.ion-android-arrow-down-left,
+.ion-android-arrow-down-right,
+.ion-android-arrow-up-left,
+.ion-android-arrow-up-right,
+.ion-android-battery,
+.ion-android-book,
+.ion-android-calendar,
+.ion-android-call,
+.ion-android-camera,
+.ion-android-chat,
+.ion-android-checkmark,
+.ion-android-clock,
+.ion-android-close,
+.ion-android-contact,
+.ion-android-contacts,
+.ion-android-data,
+.ion-android-developer,
+.ion-android-display,
+.ion-android-download,
+.ion-android-dropdown,
+.ion-android-earth,
+.ion-android-folder,
+.ion-android-forums,
+.ion-android-friends,
+.ion-android-hand,
+.ion-android-image,
+.ion-android-inbox,
+.ion-android-information,
+.ion-android-keypad,
+.ion-android-lightbulb,
+.ion-android-locate,
+.ion-android-location,
+.ion-android-mail,
+.ion-android-microphone,
+.ion-android-mixer,
+.ion-android-more,
+.ion-android-note,
+.ion-android-playstore,
+.ion-android-printer,
+.ion-android-promotion,
+.ion-android-reminder,
+.ion-android-remove,
+.ion-android-search,
+.ion-android-send,
+.ion-android-settings,
+.ion-android-share,
+.ion-android-social,
+.ion-android-social-user,
+.ion-android-sort,
+.ion-android-star,
+.ion-android-stopwatch,
+.ion-android-storage,
+.ion-android-system-back,
+.ion-android-system-home,
+.ion-android-system-windows,
+.ion-android-timer,
+.ion-android-trash,
+.ion-android-volume,
+.ion-android-wifi,
+.ion-archive,
+.ion-arrow-down-a,
+.ion-arrow-down-b,
+.ion-arrow-down-c,
+.ion-arrow-expand,
+.ion-arrow-graph-down-left,
+.ion-arrow-graph-down-right,
+.ion-arrow-graph-up-left,
+.ion-arrow-graph-up-right,
+.ion-arrow-left-a,
+.ion-arrow-left-b,
+.ion-arrow-left-c,
+.ion-arrow-move,
+.ion-arrow-resize,
+.ion-arrow-return-left,
+.ion-arrow-return-right,
+.ion-arrow-right-a,
+.ion-arrow-right-b,
+.ion-arrow-right-c,
+.ion-arrow-shrink,
+.ion-arrow-swap,
+.ion-arrow-up-a,
+.ion-arrow-up-b,
+.ion-arrow-up-c,
+.ion-at,
+.ion-bag,
+.ion-battery-charging,
+.ion-battery-empty,
+.ion-battery-full,
+.ion-battery-half,
+.ion-battery-low,
+.ion-beaker,
+.ion-beer,
+.ion-bluetooth,
+.ion-bookmark,
+.ion-briefcase,
+.ion-bug,
+.ion-calculator,
+.ion-calendar,
+.ion-camera,
+.ion-card,
+.ion-chatbox,
+.ion-chatbox-working,
+.ion-chatboxes,
+.ion-chatbubble,
+.ion-chatbubble-working,
+.ion-chatbubbles,
+.ion-checkmark,
+.ion-checkmark-circled,
+.ion-checkmark-round,
+.ion-chevron-down,
+.ion-chevron-left,
+.ion-chevron-right,
+.ion-chevron-up,
+.ion-clipboard,
+.ion-clock,
+.ion-close,
+.ion-close-circled,
+.ion-close-round,
+.ion-cloud,
+.ion-code,
+.ion-code-download,
+.ion-code-working,
+.ion-coffee,
+.ion-compass,
+.ion-compose,
+.ion-connection-bars,
+.ion-contrast,
+.ion-disc,
+.ion-document,
+.ion-document-text,
+.ion-drag,
+.ion-earth,
+.ion-edit,
+.ion-egg,
+.ion-eject,
+.ion-email,
+.ion-eye,
+.ion-eye-disabled,
+.ion-female,
+.ion-filing,
+.ion-film-marker,
+.ion-flag,
+.ion-flash,
+.ion-flash-off,
+.ion-flask,
+.ion-folder,
+.ion-fork,
+.ion-fork-repo,
+.ion-forward,
+.ion-game-controller-a,
+.ion-game-controller-b,
+.ion-gear-a,
+.ion-gear-b,
+.ion-grid,
+.ion-hammer,
+.ion-headphone,
+.ion-heart,
+.ion-help,
+.ion-help-buoy,
+.ion-help-circled,
+.ion-home,
+.ion-icecream,
+.ion-icon-social-google-plus,
+.ion-icon-social-google-plus-outline,
+.ion-image,
+.ion-images,
+.ion-information,
+.ion-information-circled,
+.ion-ionic,
+.ion-ios7-alarm,
+.ion-ios7-alarm-outline,
+.ion-ios7-albums,
+.ion-ios7-albums-outline,
+.ion-ios7-arrow-back,
+.ion-ios7-arrow-down,
+.ion-ios7-arrow-forward,
+.ion-ios7-arrow-left,
+.ion-ios7-arrow-right,
+.ion-ios7-arrow-thin-down,
+.ion-ios7-arrow-thin-left,
+.ion-ios7-arrow-thin-right,
+.ion-ios7-arrow-thin-up,
+.ion-ios7-arrow-up,
+.ion-ios7-at,
+.ion-ios7-at-outline,
+.ion-ios7-bell,
+.ion-ios7-bell-outline,
+.ion-ios7-bolt,
+.ion-ios7-bolt-outline,
+.ion-ios7-bookmarks,
+.ion-ios7-bookmarks-outline,
+.ion-ios7-box,
+.ion-ios7-box-outline,
+.ion-ios7-briefcase,
+.ion-ios7-briefcase-outline,
+.ion-ios7-browsers,
+.ion-ios7-browsers-outline,
+.ion-ios7-calculator,
+.ion-ios7-calculator-outline,
+.ion-ios7-calendar,
+.ion-ios7-calendar-outline,
+.ion-ios7-camera,
+.ion-ios7-camera-outline,
+.ion-ios7-cart,
+.ion-ios7-cart-outline,
+.ion-ios7-chatboxes,
+.ion-ios7-chatboxes-outline,
+.ion-ios7-chatbubble,
+.ion-ios7-chatbubble-outline,
+.ion-ios7-checkmark,
+.ion-ios7-checkmark-empty,
+.ion-ios7-checkmark-outline,
+.ion-ios7-circle-filled,
+.ion-ios7-circle-outline,
+.ion-ios7-clock,
+.ion-ios7-clock-outline,
+.ion-ios7-close,
+.ion-ios7-close-empty,
+.ion-ios7-close-outline,
+.ion-ios7-cloud,
+.ion-ios7-cloud-download,
+.ion-ios7-cloud-download-outline,
+.ion-ios7-cloud-outline,
+.ion-ios7-cloud-upload,
+.ion-ios7-cloud-upload-outline,
+.ion-ios7-cloudy,
+.ion-ios7-cloudy-night,
+.ion-ios7-cloudy-night-outline,
+.ion-ios7-cloudy-outline,
+.ion-ios7-cog,
+.ion-ios7-cog-outline,
+.ion-ios7-compose,
+.ion-ios7-compose-outline,
+.ion-ios7-contact,
+.ion-ios7-contact-outline,
+.ion-ios7-copy,
+.ion-ios7-copy-outline,
+.ion-ios7-download,
+.ion-ios7-download-outline,
+.ion-ios7-drag,
+.ion-ios7-email,
+.ion-ios7-email-outline,
+.ion-ios7-eye,
+.ion-ios7-eye-outline,
+.ion-ios7-fastforward,
+.ion-ios7-fastforward-outline,
+.ion-ios7-filing,
+.ion-ios7-filing-outline,
+.ion-ios7-film,
+.ion-ios7-film-outline,
+.ion-ios7-flag,
+.ion-ios7-flag-outline,
+.ion-ios7-folder,
+.ion-ios7-folder-outline,
+.ion-ios7-gear,
+.ion-ios7-gear-outline,
+.ion-ios7-glasses,
+.ion-ios7-glasses-outline,
+.ion-ios7-heart,
+.ion-ios7-heart-outline,
+.ion-ios7-help,
+.ion-ios7-help-empty,
+.ion-ios7-help-outline,
+.ion-ios7-infinite,
+.ion-ios7-infinite-outline,
+.ion-ios7-information,
+.ion-ios7-information-empty,
+.ion-ios7-information-outline,
+.ion-ios7-ionic-outline,
+.ion-ios7-keypad,
+.ion-ios7-keypad-outline,
+.ion-ios7-lightbulb,
+.ion-ios7-lightbulb-outline,
+.ion-ios7-location,
+.ion-ios7-location-outline,
+.ion-ios7-locked,
+.ion-ios7-locked-outline,
+.ion-ios7-medkit,
+.ion-ios7-medkit-outline,
+.ion-ios7-mic,
+.ion-ios7-mic-off,
+.ion-ios7-mic-outline,
+.ion-ios7-minus,
+.ion-ios7-minus-empty,
+.ion-ios7-minus-outline,
+.ion-ios7-monitor,
+.ion-ios7-monitor-outline,
+.ion-ios7-moon,
+.ion-ios7-moon-outline,
+.ion-ios7-more,
+.ion-ios7-more-outline,
+.ion-ios7-musical-note,
+.ion-ios7-musical-notes,
+.ion-ios7-navigate,
+.ion-ios7-navigate-outline,
+.ion-ios7-paperplane,
+.ion-ios7-paperplane-outline,
+.ion-ios7-partlysunny,
+.ion-ios7-partlysunny-outline,
+.ion-ios7-pause,
+.ion-ios7-pause-outline,
+.ion-ios7-people,
+.ion-ios7-people-outline,
+.ion-ios7-person,
+.ion-ios7-person-outline,
+.ion-ios7-personadd,
+.ion-ios7-personadd-outline,
+.ion-ios7-photos,
+.ion-ios7-photos-outline,
+.ion-ios7-pie,
+.ion-ios7-pie-outline,
+.ion-ios7-play,
+.ion-ios7-play-outline,
+.ion-ios7-plus,
+.ion-ios7-plus-empty,
+.ion-ios7-plus-outline,
+.ion-ios7-pricetag,
+.ion-ios7-pricetag-outline,
+.ion-ios7-printer,
+.ion-ios7-printer-outline,
+.ion-ios7-rainy,
+.ion-ios7-rainy-outline,
+.ion-ios7-recording,
+.ion-ios7-recording-outline,
+.ion-ios7-redo,
+.ion-ios7-redo-outline,
+.ion-ios7-refresh,
+.ion-ios7-refresh-empty,
+.ion-ios7-refresh-outline,
+.ion-ios7-reload,
+.ion-ios7-rewind,
+.ion-ios7-rewind-outline,
+.ion-ios7-search,
+.ion-ios7-search-strong,
+.ion-ios7-skipbackward,
+.ion-ios7-skipbackward-outline,
+.ion-ios7-skipforward,
+.ion-ios7-skipforward-outline,
+.ion-ios7-snowy,
+.ion-ios7-speedometer,
+.ion-ios7-speedometer-outline,
+.ion-ios7-star,
+.ion-ios7-star-outline,
+.ion-ios7-stopwatch,
+.ion-ios7-stopwatch-outline,
+.ion-ios7-sunny,
+.ion-ios7-sunny-outline,
+.ion-ios7-telephone,
+.ion-ios7-telephone-outline,
+.ion-ios7-thunderstorm,
+.ion-ios7-thunderstorm-outline,
+.ion-ios7-time,
+.ion-ios7-time-outline,
+.ion-ios7-timer,
+.ion-ios7-timer-outline,
+.ion-ios7-trash,
+.ion-ios7-trash-outline,
+.ion-ios7-undo,
+.ion-ios7-undo-outline,
+.ion-ios7-unlocked,
+.ion-ios7-unlocked-outline,
+.ion-ios7-upload,
+.ion-ios7-upload-outline,
+.ion-ios7-videocam,
+.ion-ios7-videocam-outline,
+.ion-ios7-volume-high,
+.ion-ios7-volume-low,
+.ion-ios7-wineglass,
+.ion-ios7-wineglass-outline,
+.ion-ios7-world,
+.ion-ios7-world-outline,
+.ion-ipad,
+.ion-iphone,
+.ion-ipod,
+.ion-jet,
+.ion-key,
+.ion-knife,
+.ion-laptop,
+.ion-leaf,
+.ion-levels,
+.ion-lightbulb,
+.ion-link,
+.ion-load-a,
+.ion-load-b,
+.ion-load-c,
+.ion-load-d,
+.ion-location,
+.ion-locked,
+.ion-log-in,
+.ion-log-out,
+.ion-loop,
+.ion-magnet,
+.ion-male,
+.ion-man,
+.ion-map,
+.ion-medkit,
+.ion-mic-a,
+.ion-mic-b,
+.ion-mic-c,
+.ion-minus,
+.ion-minus-circled,
+.ion-minus-round,
+.ion-model-s,
+.ion-monitor,
+.ion-more,
+.ion-music-note,
+.ion-navicon,
+.ion-navicon-round,
+.ion-navigate,
+.ion-no-smoking,
+.ion-nuclear,
+.ion-paper-airplane,
+.ion-paperclip,
+.ion-pause,
+.ion-person,
+.ion-person-add,
+.ion-person-stalker,
+.ion-pie-graph,
+.ion-pin,
+.ion-pinpoint,
+.ion-pizza,
+.ion-plane,
+.ion-play,
+.ion-playstation,
+.ion-plus,
+.ion-plus-circled,
+.ion-plus-round,
+.ion-pound,
+.ion-power,
+.ion-pricetag,
+.ion-pricetags,
+.ion-printer,
+.ion-radio-waves,
+.ion-record,
+.ion-refresh,
+.ion-reply,
+.ion-reply-all,
+.ion-search,
+.ion-settings,
+.ion-share,
+.ion-shuffle,
+.ion-skip-backward,
+.ion-skip-forward,
+.ion-social-android,
+.ion-social-android-outline,
+.ion-social-apple,
+.ion-social-apple-outline,
+.ion-social-bitcoin,
+.ion-social-bitcoin-outline,
+.ion-social-buffer,
+.ion-social-buffer-outline,
+.ion-social-designernews,
+.ion-social-designernews-outline,
+.ion-social-dribbble,
+.ion-social-dribbble-outline,
+.ion-social-dropbox,
+.ion-social-dropbox-outline,
+.ion-social-facebook,
+.ion-social-facebook-outline,
+.ion-social-freebsd-devil,
+.ion-social-github,
+.ion-social-github-outline,
+.ion-social-googleplus,
+.ion-social-googleplus-outline,
+.ion-social-hackernews,
+.ion-social-hackernews-outline,
+.ion-social-linkedin,
+.ion-social-linkedin-outline,
+.ion-social-pinterest,
+.ion-social-pinterest-outline,
+.ion-social-reddit,
+.ion-social-reddit-outline,
+.ion-social-rss,
+.ion-social-rss-outline,
+.ion-social-skype,
+.ion-social-skype-outline,
+.ion-social-tumblr,
+.ion-social-tumblr-outline,
+.ion-social-tux,
+.ion-social-twitter,
+.ion-social-twitter-outline,
+.ion-social-vimeo,
+.ion-social-vimeo-outline,
+.ion-social-windows,
+.ion-social-windows-outline,
+.ion-social-wordpress,
+.ion-social-wordpress-outline,
+.ion-social-yahoo,
+.ion-social-yahoo-outline,
+.ion-social-youtube,
+.ion-social-youtube-outline,
+.ion-speakerphone,
+.ion-speedometer,
+.ion-spoon,
+.ion-star,
+.ion-stats-bars,
+.ion-steam,
+.ion-stop,
+.ion-thermometer,
+.ion-thumbsdown,
+.ion-thumbsup,
+.ion-trash-a,
+.ion-trash-b,
+.ion-umbrella,
+.ion-unlocked,
+.ion-upload,
+.ion-usb,
+.ion-videocamera,
+.ion-volume-high,
+.ion-volume-low,
+.ion-volume-medium,
+.ion-volume-mute,
+.ion-waterdrop,
+.ion-wifi,
+.ion-wineglass,
+.ion-woman,
+.ion-wrench,
+.ion-xbox {
+  display: inline-block;
+  font-family: "Ionicons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 4, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+.ion-spin, .ion-loading-a,
+.ion-loading-b,
+.ion-loading-c,
+.ion-loading-d,
+.ion-looping,
+.ion-refreshing,
+.ion-ios7-reloading {
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+  -o-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
+}
+
+@-moz-keyframes spin {
+  /* line 12, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 13, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  /* line 16, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 17, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes spin {
+  /* line 20, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  0% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 21, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes spin {
+  /* line 24, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+
+  /* line 25, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  /* line 28, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 29, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+/* line 44, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-animation.scss */
+.ion-loading-a {
+  -webkit-animation-timing-function: steps(8, start);
+  -moz-animation-timing-function: steps(8, start);
+  animation-timing-function: steps(8, start);
+}
+
+/* line 533, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-alert:before {
+  content: "\f101";
+}
+
+/* line 534, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-alert-circled:before {
+  content: "\f100";
+}
+
+/* line 535, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-add:before {
+  content: "\f2c7";
+}
+
+/* line 536, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-add-contact:before {
+  content: "\f2c6";
+}
+
+/* line 537, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-alarm:before {
+  content: "\f2c8";
+}
+
+/* line 538, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-archive:before {
+  content: "\f2c9";
+}
+
+/* line 539, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-arrow-back:before {
+  content: "\f2ca";
+}
+
+/* line 540, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-arrow-down-left:before {
+  content: "\f2cb";
+}
+
+/* line 541, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-arrow-down-right:before {
+  content: "\f2cc";
+}
+
+/* line 542, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-arrow-up-left:before {
+  content: "\f2cd";
+}
+
+/* line 543, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-arrow-up-right:before {
+  content: "\f2ce";
+}
+
+/* line 544, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-battery:before {
+  content: "\f2cf";
+}
+
+/* line 545, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-book:before {
+  content: "\f2d0";
+}
+
+/* line 546, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-calendar:before {
+  content: "\f2d1";
+}
+
+/* line 547, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-call:before {
+  content: "\f2d2";
+}
+
+/* line 548, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-camera:before {
+  content: "\f2d3";
+}
+
+/* line 549, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-chat:before {
+  content: "\f2d4";
+}
+
+/* line 550, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-checkmark:before {
+  content: "\f2d5";
+}
+
+/* line 551, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-clock:before {
+  content: "\f2d6";
+}
+
+/* line 552, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-close:before {
+  content: "\f2d7";
+}
+
+/* line 553, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-contact:before {
+  content: "\f2d8";
+}
+
+/* line 554, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-contacts:before {
+  content: "\f2d9";
+}
+
+/* line 555, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-data:before {
+  content: "\f2da";
+}
+
+/* line 556, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-developer:before {
+  content: "\f2db";
+}
+
+/* line 557, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-display:before {
+  content: "\f2dc";
+}
+
+/* line 558, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-download:before {
+  content: "\f2dd";
+}
+
+/* line 559, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-dropdown:before {
+  content: "\f2de";
+}
+
+/* line 560, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-earth:before {
+  content: "\f2df";
+}
+
+/* line 561, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-folder:before {
+  content: "\f2e0";
+}
+
+/* line 562, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-forums:before {
+  content: "\f2e1";
+}
+
+/* line 563, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-friends:before {
+  content: "\f2e2";
+}
+
+/* line 564, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-hand:before {
+  content: "\f2e3";
+}
+
+/* line 565, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-image:before {
+  content: "\f2e4";
+}
+
+/* line 566, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-inbox:before {
+  content: "\f2e5";
+}
+
+/* line 567, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-information:before {
+  content: "\f2e6";
+}
+
+/* line 568, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-keypad:before {
+  content: "\f2e7";
+}
+
+/* line 569, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-lightbulb:before {
+  content: "\f2e8";
+}
+
+/* line 570, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-locate:before {
+  content: "\f2e9";
+}
+
+/* line 571, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-location:before {
+  content: "\f2ea";
+}
+
+/* line 572, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-mail:before {
+  content: "\f2eb";
+}
+
+/* line 573, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-microphone:before {
+  content: "\f2ec";
+}
+
+/* line 574, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-mixer:before {
+  content: "\f2ed";
+}
+
+/* line 575, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-more:before {
+  content: "\f2ee";
+}
+
+/* line 576, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-note:before {
+  content: "\f2ef";
+}
+
+/* line 577, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-playstore:before {
+  content: "\f2f0";
+}
+
+/* line 578, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-printer:before {
+  content: "\f2f1";
+}
+
+/* line 579, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-promotion:before {
+  content: "\f2f2";
+}
+
+/* line 580, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-reminder:before {
+  content: "\f2f3";
+}
+
+/* line 581, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-remove:before {
+  content: "\f2f4";
+}
+
+/* line 582, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-search:before {
+  content: "\f2f5";
+}
+
+/* line 583, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-send:before {
+  content: "\f2f6";
+}
+
+/* line 584, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-settings:before {
+  content: "\f2f7";
+}
+
+/* line 585, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-share:before {
+  content: "\f2f8";
+}
+
+/* line 586, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-social:before {
+  content: "\f2fa";
+}
+
+/* line 587, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-social-user:before {
+  content: "\f2f9";
+}
+
+/* line 588, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-sort:before {
+  content: "\f2fb";
+}
+
+/* line 589, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-star:before {
+  content: "\f2fc";
+}
+
+/* line 590, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-stopwatch:before {
+  content: "\f2fd";
+}
+
+/* line 591, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-storage:before {
+  content: "\f2fe";
+}
+
+/* line 592, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-system-back:before {
+  content: "\f2ff";
+}
+
+/* line 593, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-system-home:before {
+  content: "\f300";
+}
+
+/* line 594, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-system-windows:before {
+  content: "\f301";
+}
+
+/* line 595, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-timer:before {
+  content: "\f302";
+}
+
+/* line 596, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-trash:before {
+  content: "\f303";
+}
+
+/* line 597, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-volume:before {
+  content: "\f304";
+}
+
+/* line 598, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-android-wifi:before {
+  content: "\f305";
+}
+
+/* line 599, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-archive:before {
+  content: "\f102";
+}
+
+/* line 600, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-down-a:before {
+  content: "\f103";
+}
+
+/* line 601, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-down-b:before {
+  content: "\f104";
+}
+
+/* line 602, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-down-c:before {
+  content: "\f105";
+}
+
+/* line 603, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-expand:before {
+  content: "\f25e";
+}
+
+/* line 604, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-graph-down-left:before {
+  content: "\f25f";
+}
+
+/* line 605, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-graph-down-right:before {
+  content: "\f260";
+}
+
+/* line 606, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-graph-up-left:before {
+  content: "\f261";
+}
+
+/* line 607, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-graph-up-right:before {
+  content: "\f262";
+}
+
+/* line 608, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-left-a:before {
+  content: "\f106";
+}
+
+/* line 609, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-left-b:before {
+  content: "\f107";
+}
+
+/* line 610, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-left-c:before {
+  content: "\f108";
+}
+
+/* line 611, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-move:before {
+  content: "\f263";
+}
+
+/* line 612, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-resize:before {
+  content: "\f264";
+}
+
+/* line 613, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-return-left:before {
+  content: "\f265";
+}
+
+/* line 614, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-return-right:before {
+  content: "\f266";
+}
+
+/* line 615, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-right-a:before {
+  content: "\f109";
+}
+
+/* line 616, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-right-b:before {
+  content: "\f10a";
+}
+
+/* line 617, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-right-c:before {
+  content: "\f10b";
+}
+
+/* line 618, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-shrink:before {
+  content: "\f267";
+}
+
+/* line 619, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-swap:before {
+  content: "\f268";
+}
+
+/* line 620, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-up-a:before {
+  content: "\f10c";
+}
+
+/* line 621, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-up-b:before {
+  content: "\f10d";
+}
+
+/* line 622, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-arrow-up-c:before {
+  content: "\f10e";
+}
+
+/* line 623, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-at:before {
+  content: "\f10f";
+}
+
+/* line 624, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-bag:before {
+  content: "\f110";
+}
+
+/* line 625, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-battery-charging:before {
+  content: "\f111";
+}
+
+/* line 626, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-battery-empty:before {
+  content: "\f112";
+}
+
+/* line 627, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-battery-full:before {
+  content: "\f113";
+}
+
+/* line 628, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-battery-half:before {
+  content: "\f114";
+}
+
+/* line 629, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-battery-low:before {
+  content: "\f115";
+}
+
+/* line 630, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-beaker:before {
+  content: "\f269";
+}
+
+/* line 631, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-beer:before {
+  content: "\f26a";
+}
+
+/* line 632, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-bluetooth:before {
+  content: "\f116";
+}
+
+/* line 633, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-bookmark:before {
+  content: "\f26b";
+}
+
+/* line 634, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-briefcase:before {
+  content: "\f26c";
+}
+
+/* line 635, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-bug:before {
+  content: "\f2be";
+}
+
+/* line 636, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-calculator:before {
+  content: "\f26d";
+}
+
+/* line 637, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-calendar:before {
+  content: "\f117";
+}
+
+/* line 638, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-camera:before {
+  content: "\f118";
+}
+
+/* line 639, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-card:before {
+  content: "\f119";
+}
+
+/* line 640, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chatbox:before {
+  content: "\f11b";
+}
+
+/* line 641, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chatbox-working:before {
+  content: "\f11a";
+}
+
+/* line 642, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chatboxes:before {
+  content: "\f11c";
+}
+
+/* line 643, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chatbubble:before {
+  content: "\f11e";
+}
+
+/* line 644, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chatbubble-working:before {
+  content: "\f11d";
+}
+
+/* line 645, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chatbubbles:before {
+  content: "\f11f";
+}
+
+/* line 646, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-checkmark:before {
+  content: "\f122";
+}
+
+/* line 647, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-checkmark-circled:before {
+  content: "\f120";
+}
+
+/* line 648, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-checkmark-round:before {
+  content: "\f121";
+}
+
+/* line 649, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chevron-down:before {
+  content: "\f123";
+}
+
+/* line 650, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chevron-left:before {
+  content: "\f124";
+}
+
+/* line 651, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chevron-right:before {
+  content: "\f125";
+}
+
+/* line 652, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-chevron-up:before {
+  content: "\f126";
+}
+
+/* line 653, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-clipboard:before {
+  content: "\f127";
+}
+
+/* line 654, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-clock:before {
+  content: "\f26e";
+}
+
+/* line 655, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-close:before {
+  content: "\f12a";
+}
+
+/* line 656, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-close-circled:before {
+  content: "\f128";
+}
+
+/* line 657, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-close-round:before {
+  content: "\f129";
+}
+
+/* line 658, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-cloud:before {
+  content: "\f12b";
+}
+
+/* line 659, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-code:before {
+  content: "\f271";
+}
+
+/* line 660, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-code-download:before {
+  content: "\f26f";
+}
+
+/* line 661, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-code-working:before {
+  content: "\f270";
+}
+
+/* line 662, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-coffee:before {
+  content: "\f272";
+}
+
+/* line 663, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-compass:before {
+  content: "\f273";
+}
+
+/* line 664, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-compose:before {
+  content: "\f12c";
+}
+
+/* line 665, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-connection-bars:before {
+  content: "\f274";
+}
+
+/* line 666, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-contrast:before {
+  content: "\f275";
+}
+
+/* line 667, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-disc:before {
+  content: "\f12d";
+}
+
+/* line 668, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-document:before {
+  content: "\f12f";
+}
+
+/* line 669, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-document-text:before {
+  content: "\f12e";
+}
+
+/* line 670, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-drag:before {
+  content: "\f130";
+}
+
+/* line 671, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-earth:before {
+  content: "\f276";
+}
+
+/* line 672, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-edit:before {
+  content: "\f2bf";
+}
+
+/* line 673, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-egg:before {
+  content: "\f277";
+}
+
+/* line 674, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-eject:before {
+  content: "\f131";
+}
+
+/* line 675, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-email:before {
+  content: "\f132";
+}
+
+/* line 676, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-eye:before {
+  content: "\f133";
+}
+
+/* line 677, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-eye-disabled:before {
+  content: "\f306";
+}
+
+/* line 678, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-female:before {
+  content: "\f278";
+}
+
+/* line 679, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-filing:before {
+  content: "\f134";
+}
+
+/* line 680, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-film-marker:before {
+  content: "\f135";
+}
+
+/* line 681, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-flag:before {
+  content: "\f279";
+}
+
+/* line 682, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-flash:before {
+  content: "\f137";
+}
+
+/* line 683, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-flash-off:before {
+  content: "\f136";
+}
+
+/* line 684, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-flask:before {
+  content: "\f138";
+}
+
+/* line 685, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-folder:before {
+  content: "\f139";
+}
+
+/* line 686, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-fork:before {
+  content: "\f27a";
+}
+
+/* line 687, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-fork-repo:before {
+  content: "\f2c0";
+}
+
+/* line 688, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-forward:before {
+  content: "\f13a";
+}
+
+/* line 689, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-game-controller-a:before {
+  content: "\f13b";
+}
+
+/* line 690, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-game-controller-b:before {
+  content: "\f13c";
+}
+
+/* line 691, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-gear-a:before {
+  content: "\f13d";
+}
+
+/* line 692, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-gear-b:before {
+  content: "\f13e";
+}
+
+/* line 693, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-grid:before {
+  content: "\f13f";
+}
+
+/* line 694, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-hammer:before {
+  content: "\f27b";
+}
+
+/* line 695, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-headphone:before {
+  content: "\f140";
+}
+
+/* line 696, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-heart:before {
+  content: "\f141";
+}
+
+/* line 697, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-help:before {
+  content: "\f143";
+}
+
+/* line 698, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-help-buoy:before {
+  content: "\f27c";
+}
+
+/* line 699, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-help-circled:before {
+  content: "\f142";
+}
+
+/* line 700, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-home:before {
+  content: "\f144";
+}
+
+/* line 701, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-icecream:before {
+  content: "\f27d";
+}
+
+/* line 702, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-icon-social-google-plus:before {
+  content: "\f146";
+}
+
+/* line 703, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-icon-social-google-plus-outline:before {
+  content: "\f145";
+}
+
+/* line 704, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-image:before {
+  content: "\f147";
+}
+
+/* line 705, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-images:before {
+  content: "\f148";
+}
+
+/* line 706, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-information:before {
+  content: "\f14a";
+}
+
+/* line 707, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-information-circled:before {
+  content: "\f149";
+}
+
+/* line 708, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ionic:before {
+  content: "\f14b";
+}
+
+/* line 709, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-alarm:before {
+  content: "\f14d";
+}
+
+/* line 710, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-alarm-outline:before {
+  content: "\f14c";
+}
+
+/* line 711, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-albums:before {
+  content: "\f14f";
+}
+
+/* line 712, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-albums-outline:before {
+  content: "\f14e";
+}
+
+/* line 713, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-back:before {
+  content: "\f150";
+}
+
+/* line 714, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-down:before {
+  content: "\f151";
+}
+
+/* line 715, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-forward:before {
+  content: "\f152";
+}
+
+/* line 716, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-left:before {
+  content: "\f153";
+}
+
+/* line 717, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-right:before {
+  content: "\f154";
+}
+
+/* line 718, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-thin-down:before {
+  content: "\f27e";
+}
+
+/* line 719, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-thin-left:before {
+  content: "\f27f";
+}
+
+/* line 720, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-thin-right:before {
+  content: "\f280";
+}
+
+/* line 721, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-thin-up:before {
+  content: "\f281";
+}
+
+/* line 722, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-arrow-up:before {
+  content: "\f155";
+}
+
+/* line 723, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-at:before {
+  content: "\f157";
+}
+
+/* line 724, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-at-outline:before {
+  content: "\f156";
+}
+
+/* line 725, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-bell:before {
+  content: "\f159";
+}
+
+/* line 726, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-bell-outline:before {
+  content: "\f158";
+}
+
+/* line 727, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-bolt:before {
+  content: "\f15b";
+}
+
+/* line 728, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-bolt-outline:before {
+  content: "\f15a";
+}
+
+/* line 729, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-bookmarks:before {
+  content: "\f15d";
+}
+
+/* line 730, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-bookmarks-outline:before {
+  content: "\f15c";
+}
+
+/* line 731, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-box:before {
+  content: "\f15f";
+}
+
+/* line 732, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-box-outline:before {
+  content: "\f15e";
+}
+
+/* line 733, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-briefcase:before {
+  content: "\f283";
+}
+
+/* line 734, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-briefcase-outline:before {
+  content: "\f282";
+}
+
+/* line 735, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-browsers:before {
+  content: "\f161";
+}
+
+/* line 736, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-browsers-outline:before {
+  content: "\f160";
+}
+
+/* line 737, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-calculator:before {
+  content: "\f285";
+}
+
+/* line 738, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-calculator-outline:before {
+  content: "\f284";
+}
+
+/* line 739, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-calendar:before {
+  content: "\f163";
+}
+
+/* line 740, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-calendar-outline:before {
+  content: "\f162";
+}
+
+/* line 741, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-camera:before {
+  content: "\f165";
+}
+
+/* line 742, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-camera-outline:before {
+  content: "\f164";
+}
+
+/* line 743, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cart:before {
+  content: "\f167";
+}
+
+/* line 744, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cart-outline:before {
+  content: "\f166";
+}
+
+/* line 745, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-chatboxes:before {
+  content: "\f169";
+}
+
+/* line 746, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-chatboxes-outline:before {
+  content: "\f168";
+}
+
+/* line 747, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-chatbubble:before {
+  content: "\f16b";
+}
+
+/* line 748, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-chatbubble-outline:before {
+  content: "\f16a";
+}
+
+/* line 749, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-checkmark:before {
+  content: "\f16e";
+}
+
+/* line 750, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-checkmark-empty:before {
+  content: "\f16c";
+}
+
+/* line 751, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-checkmark-outline:before {
+  content: "\f16d";
+}
+
+/* line 752, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-circle-filled:before {
+  content: "\f16f";
+}
+
+/* line 753, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-circle-outline:before {
+  content: "\f170";
+}
+
+/* line 754, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-clock:before {
+  content: "\f172";
+}
+
+/* line 755, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-clock-outline:before {
+  content: "\f171";
+}
+
+/* line 756, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-close:before {
+  content: "\f2bc";
+}
+
+/* line 757, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-close-empty:before {
+  content: "\f2bd";
+}
+
+/* line 758, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-close-outline:before {
+  content: "\f2bb";
+}
+
+/* line 759, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloud:before {
+  content: "\f178";
+}
+
+/* line 760, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloud-download:before {
+  content: "\f174";
+}
+
+/* line 761, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloud-download-outline:before {
+  content: "\f173";
+}
+
+/* line 762, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloud-outline:before {
+  content: "\f175";
+}
+
+/* line 763, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloud-upload:before {
+  content: "\f177";
+}
+
+/* line 764, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloud-upload-outline:before {
+  content: "\f176";
+}
+
+/* line 765, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloudy:before {
+  content: "\f17a";
+}
+
+/* line 766, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloudy-night:before {
+  content: "\f308";
+}
+
+/* line 767, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloudy-night-outline:before {
+  content: "\f307";
+}
+
+/* line 768, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cloudy-outline:before {
+  content: "\f179";
+}
+
+/* line 769, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cog:before {
+  content: "\f17c";
+}
+
+/* line 770, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-cog-outline:before {
+  content: "\f17b";
+}
+
+/* line 771, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-compose:before {
+  content: "\f17e";
+}
+
+/* line 772, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-compose-outline:before {
+  content: "\f17d";
+}
+
+/* line 773, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-contact:before {
+  content: "\f180";
+}
+
+/* line 774, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-contact-outline:before {
+  content: "\f17f";
+}
+
+/* line 775, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-copy:before {
+  content: "\f182";
+}
+
+/* line 776, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-copy-outline:before {
+  content: "\f181";
+}
+
+/* line 777, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-download:before {
+  content: "\f184";
+}
+
+/* line 778, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-download-outline:before {
+  content: "\f183";
+}
+
+/* line 779, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-drag:before {
+  content: "\f185";
+}
+
+/* line 780, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-email:before {
+  content: "\f187";
+}
+
+/* line 781, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-email-outline:before {
+  content: "\f186";
+}
+
+/* line 782, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-eye:before {
+  content: "\f189";
+}
+
+/* line 783, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-eye-outline:before {
+  content: "\f188";
+}
+
+/* line 784, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-fastforward:before {
+  content: "\f18b";
+}
+
+/* line 785, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-fastforward-outline:before {
+  content: "\f18a";
+}
+
+/* line 786, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-filing:before {
+  content: "\f18d";
+}
+
+/* line 787, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-filing-outline:before {
+  content: "\f18c";
+}
+
+/* line 788, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-film:before {
+  content: "\f18f";
+}
+
+/* line 789, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-film-outline:before {
+  content: "\f18e";
+}
+
+/* line 790, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-flag:before {
+  content: "\f191";
+}
+
+/* line 791, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-flag-outline:before {
+  content: "\f190";
+}
+
+/* line 792, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-folder:before {
+  content: "\f193";
+}
+
+/* line 793, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-folder-outline:before {
+  content: "\f192";
+}
+
+/* line 794, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-gear:before {
+  content: "\f195";
+}
+
+/* line 795, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-gear-outline:before {
+  content: "\f194";
+}
+
+/* line 796, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-glasses:before {
+  content: "\f197";
+}
+
+/* line 797, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-glasses-outline:before {
+  content: "\f196";
+}
+
+/* line 798, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-heart:before {
+  content: "\f199";
+}
+
+/* line 799, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-heart-outline:before {
+  content: "\f198";
+}
+
+/* line 800, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-help:before {
+  content: "\f19c";
+}
+
+/* line 801, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-help-empty:before {
+  content: "\f19a";
+}
+
+/* line 802, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-help-outline:before {
+  content: "\f19b";
+}
+
+/* line 803, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-infinite:before {
+  content: "\f19e";
+}
+
+/* line 804, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-infinite-outline:before {
+  content: "\f19d";
+}
+
+/* line 805, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-information:before {
+  content: "\f1a1";
+}
+
+/* line 806, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-information-empty:before {
+  content: "\f19f";
+}
+
+/* line 807, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-information-outline:before {
+  content: "\f1a0";
+}
+
+/* line 808, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-ionic-outline:before {
+  content: "\f1a2";
+}
+
+/* line 809, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-keypad:before {
+  content: "\f1a4";
+}
+
+/* line 810, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-keypad-outline:before {
+  content: "\f1a3";
+}
+
+/* line 811, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-lightbulb:before {
+  content: "\f287";
+}
+
+/* line 812, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-lightbulb-outline:before {
+  content: "\f286";
+}
+
+/* line 813, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-location:before {
+  content: "\f1a6";
+}
+
+/* line 814, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-location-outline:before {
+  content: "\f1a5";
+}
+
+/* line 815, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-locked:before {
+  content: "\f1a8";
+}
+
+/* line 816, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-locked-outline:before {
+  content: "\f1a7";
+}
+
+/* line 817, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-medkit:before {
+  content: "\f289";
+}
+
+/* line 818, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-medkit-outline:before {
+  content: "\f288";
+}
+
+/* line 819, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-mic:before {
+  content: "\f1ab";
+}
+
+/* line 820, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-mic-off:before {
+  content: "\f1a9";
+}
+
+/* line 821, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-mic-outline:before {
+  content: "\f1aa";
+}
+
+/* line 822, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-minus:before {
+  content: "\f1ae";
+}
+
+/* line 823, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-minus-empty:before {
+  content: "\f1ac";
+}
+
+/* line 824, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-minus-outline:before {
+  content: "\f1ad";
+}
+
+/* line 825, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-monitor:before {
+  content: "\f1b0";
+}
+
+/* line 826, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-monitor-outline:before {
+  content: "\f1af";
+}
+
+/* line 827, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-moon:before {
+  content: "\f1b2";
+}
+
+/* line 828, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-moon-outline:before {
+  content: "\f1b1";
+}
+
+/* line 829, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-more:before {
+  content: "\f1b4";
+}
+
+/* line 830, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-more-outline:before {
+  content: "\f1b3";
+}
+
+/* line 831, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-musical-note:before {
+  content: "\f1b5";
+}
+
+/* line 832, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-musical-notes:before {
+  content: "\f1b6";
+}
+
+/* line 833, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-navigate:before {
+  content: "\f1b8";
+}
+
+/* line 834, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-navigate-outline:before {
+  content: "\f1b7";
+}
+
+/* line 835, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-paperplane:before {
+  content: "\f1ba";
+}
+
+/* line 836, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-paperplane-outline:before {
+  content: "\f1b9";
+}
+
+/* line 837, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-partlysunny:before {
+  content: "\f1bc";
+}
+
+/* line 838, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-partlysunny-outline:before {
+  content: "\f1bb";
+}
+
+/* line 839, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-pause:before {
+  content: "\f1be";
+}
+
+/* line 840, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-pause-outline:before {
+  content: "\f1bd";
+}
+
+/* line 841, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-people:before {
+  content: "\f1c0";
+}
+
+/* line 842, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-people-outline:before {
+  content: "\f1bf";
+}
+
+/* line 843, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-person:before {
+  content: "\f1c2";
+}
+
+/* line 844, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-person-outline:before {
+  content: "\f1c1";
+}
+
+/* line 845, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-personadd:before {
+  content: "\f1c4";
+}
+
+/* line 846, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-personadd-outline:before {
+  content: "\f1c3";
+}
+
+/* line 847, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-photos:before {
+  content: "\f1c6";
+}
+
+/* line 848, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-photos-outline:before {
+  content: "\f1c5";
+}
+
+/* line 849, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-pie:before {
+  content: "\f28b";
+}
+
+/* line 850, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-pie-outline:before {
+  content: "\f28a";
+}
+
+/* line 851, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-play:before {
+  content: "\f1c8";
+}
+
+/* line 852, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-play-outline:before {
+  content: "\f1c7";
+}
+
+/* line 853, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-plus:before {
+  content: "\f1cb";
+}
+
+/* line 854, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-plus-empty:before {
+  content: "\f1c9";
+}
+
+/* line 855, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-plus-outline:before {
+  content: "\f1ca";
+}
+
+/* line 856, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-pricetag:before {
+  content: "\f28d";
+}
+
+/* line 857, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-pricetag-outline:before {
+  content: "\f28c";
+}
+
+/* line 858, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-printer:before {
+  content: "\f1cd";
+}
+
+/* line 859, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-printer-outline:before {
+  content: "\f1cc";
+}
+
+/* line 860, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-rainy:before {
+  content: "\f1cf";
+}
+
+/* line 861, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-rainy-outline:before {
+  content: "\f1ce";
+}
+
+/* line 862, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-recording:before {
+  content: "\f1d1";
+}
+
+/* line 863, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-recording-outline:before {
+  content: "\f1d0";
+}
+
+/* line 864, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-redo:before {
+  content: "\f1d3";
+}
+
+/* line 865, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-redo-outline:before {
+  content: "\f1d2";
+}
+
+/* line 866, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-refresh:before {
+  content: "\f1d6";
+}
+
+/* line 867, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-refresh-empty:before {
+  content: "\f1d4";
+}
+
+/* line 868, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-refresh-outline:before {
+  content: "\f1d5";
+}
+
+/* line 869, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-reload:before, .ion-ios7-reloading:before {
+  content: "\f28e";
+}
+
+/* line 870, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-rewind:before {
+  content: "\f1d8";
+}
+
+/* line 871, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-rewind-outline:before {
+  content: "\f1d7";
+}
+
+/* line 872, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-search:before {
+  content: "\f1da";
+}
+
+/* line 873, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-search-strong:before {
+  content: "\f1d9";
+}
+
+/* line 874, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-skipbackward:before {
+  content: "\f1dc";
+}
+
+/* line 875, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-skipbackward-outline:before {
+  content: "\f1db";
+}
+
+/* line 876, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-skipforward:before {
+  content: "\f1de";
+}
+
+/* line 877, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-skipforward-outline:before {
+  content: "\f1dd";
+}
+
+/* line 878, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-snowy:before {
+  content: "\f309";
+}
+
+/* line 879, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-speedometer:before {
+  content: "\f290";
+}
+
+/* line 880, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-speedometer-outline:before {
+  content: "\f28f";
+}
+
+/* line 881, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-star:before {
+  content: "\f1e0";
+}
+
+/* line 882, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-star-outline:before {
+  content: "\f1df";
+}
+
+/* line 883, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-stopwatch:before {
+  content: "\f1e2";
+}
+
+/* line 884, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-stopwatch-outline:before {
+  content: "\f1e1";
+}
+
+/* line 885, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-sunny:before {
+  content: "\f1e4";
+}
+
+/* line 886, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-sunny-outline:before {
+  content: "\f1e3";
+}
+
+/* line 887, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-telephone:before {
+  content: "\f1e6";
+}
+
+/* line 888, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-telephone-outline:before {
+  content: "\f1e5";
+}
+
+/* line 889, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-thunderstorm:before {
+  content: "\f1e8";
+}
+
+/* line 890, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-thunderstorm-outline:before {
+  content: "\f1e7";
+}
+
+/* line 891, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-time:before {
+  content: "\f292";
+}
+
+/* line 892, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-time-outline:before {
+  content: "\f291";
+}
+
+/* line 893, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-timer:before {
+  content: "\f1ea";
+}
+
+/* line 894, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-timer-outline:before {
+  content: "\f1e9";
+}
+
+/* line 895, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-trash:before {
+  content: "\f1ec";
+}
+
+/* line 896, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-trash-outline:before {
+  content: "\f1eb";
+}
+
+/* line 897, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-undo:before {
+  content: "\f1ee";
+}
+
+/* line 898, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-undo-outline:before {
+  content: "\f1ed";
+}
+
+/* line 899, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-unlocked:before {
+  content: "\f1f0";
+}
+
+/* line 900, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-unlocked-outline:before {
+  content: "\f1ef";
+}
+
+/* line 901, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-upload:before {
+  content: "\f1f2";
+}
+
+/* line 902, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-upload-outline:before {
+  content: "\f1f1";
+}
+
+/* line 903, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-videocam:before {
+  content: "\f1f4";
+}
+
+/* line 904, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-videocam-outline:before {
+  content: "\f1f3";
+}
+
+/* line 905, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-volume-high:before {
+  content: "\f1f5";
+}
+
+/* line 906, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-volume-low:before {
+  content: "\f1f6";
+}
+
+/* line 907, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-wineglass:before {
+  content: "\f294";
+}
+
+/* line 908, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-wineglass-outline:before {
+  content: "\f293";
+}
+
+/* line 909, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-world:before {
+  content: "\f1f8";
+}
+
+/* line 910, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ios7-world-outline:before {
+  content: "\f1f7";
+}
+
+/* line 911, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ipad:before {
+  content: "\f1f9";
+}
+
+/* line 912, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-iphone:before {
+  content: "\f1fa";
+}
+
+/* line 913, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-ipod:before {
+  content: "\f1fb";
+}
+
+/* line 914, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-jet:before {
+  content: "\f295";
+}
+
+/* line 915, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-key:before {
+  content: "\f296";
+}
+
+/* line 916, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-knife:before {
+  content: "\f297";
+}
+
+/* line 917, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-laptop:before {
+  content: "\f1fc";
+}
+
+/* line 918, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-leaf:before {
+  content: "\f1fd";
+}
+
+/* line 919, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-levels:before {
+  content: "\f298";
+}
+
+/* line 920, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-lightbulb:before {
+  content: "\f299";
+}
+
+/* line 921, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-link:before {
+  content: "\f1fe";
+}
+
+/* line 922, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-load-a:before, .ion-loading-a:before {
+  content: "\f29a";
+}
+
+/* line 923, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-load-b:before, .ion-loading-b:before {
+  content: "\f29b";
+}
+
+/* line 924, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-load-c:before, .ion-loading-c:before {
+  content: "\f29c";
+}
+
+/* line 925, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-load-d:before, .ion-loading-d:before {
+  content: "\f29d";
+}
+
+/* line 926, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-location:before {
+  content: "\f1ff";
+}
+
+/* line 927, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-locked:before {
+  content: "\f200";
+}
+
+/* line 928, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-log-in:before {
+  content: "\f29e";
+}
+
+/* line 929, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-log-out:before {
+  content: "\f29f";
+}
+
+/* line 930, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-loop:before, .ion-looping:before {
+  content: "\f201";
+}
+
+/* line 931, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-magnet:before {
+  content: "\f2a0";
+}
+
+/* line 932, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-male:before {
+  content: "\f2a1";
+}
+
+/* line 933, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-man:before {
+  content: "\f202";
+}
+
+/* line 934, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-map:before {
+  content: "\f203";
+}
+
+/* line 935, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-medkit:before {
+  content: "\f2a2";
+}
+
+/* line 936, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-mic-a:before {
+  content: "\f204";
+}
+
+/* line 937, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-mic-b:before {
+  content: "\f205";
+}
+
+/* line 938, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-mic-c:before {
+  content: "\f206";
+}
+
+/* line 939, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-minus:before {
+  content: "\f209";
+}
+
+/* line 940, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-minus-circled:before {
+  content: "\f207";
+}
+
+/* line 941, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-minus-round:before {
+  content: "\f208";
+}
+
+/* line 942, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-model-s:before {
+  content: "\f2c1";
+}
+
+/* line 943, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-monitor:before {
+  content: "\f20a";
+}
+
+/* line 944, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-more:before {
+  content: "\f20b";
+}
+
+/* line 945, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-music-note:before {
+  content: "\f20c";
+}
+
+/* line 946, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-navicon:before {
+  content: "\f20e";
+}
+
+/* line 947, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-navicon-round:before {
+  content: "\f20d";
+}
+
+/* line 948, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-navigate:before {
+  content: "\f2a3";
+}
+
+/* line 949, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-no-smoking:before {
+  content: "\f2c2";
+}
+
+/* line 950, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-nuclear:before {
+  content: "\f2a4";
+}
+
+/* line 951, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-paper-airplane:before {
+  content: "\f2c3";
+}
+
+/* line 952, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-paperclip:before {
+  content: "\f20f";
+}
+
+/* line 953, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-pause:before {
+  content: "\f210";
+}
+
+/* line 954, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-person:before {
+  content: "\f213";
+}
+
+/* line 955, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-person-add:before {
+  content: "\f211";
+}
+
+/* line 956, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-person-stalker:before {
+  content: "\f212";
+}
+
+/* line 957, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-pie-graph:before {
+  content: "\f2a5";
+}
+
+/* line 958, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-pin:before {
+  content: "\f2a6";
+}
+
+/* line 959, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-pinpoint:before {
+  content: "\f2a7";
+}
+
+/* line 960, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-pizza:before {
+  content: "\f2a8";
+}
+
+/* line 961, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-plane:before {
+  content: "\f214";
+}
+
+/* line 962, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-play:before {
+  content: "\f215";
+}
+
+/* line 963, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-playstation:before {
+  content: "\f30a";
+}
+
+/* line 964, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-plus:before {
+  content: "\f218";
+}
+
+/* line 965, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-plus-circled:before {
+  content: "\f216";
+}
+
+/* line 966, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-plus-round:before {
+  content: "\f217";
+}
+
+/* line 967, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-pound:before {
+  content: "\f219";
+}
+
+/* line 968, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-power:before {
+  content: "\f2a9";
+}
+
+/* line 969, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-pricetag:before {
+  content: "\f2aa";
+}
+
+/* line 970, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-pricetags:before {
+  content: "\f2ab";
+}
+
+/* line 971, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-printer:before {
+  content: "\f21a";
+}
+
+/* line 972, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-radio-waves:before {
+  content: "\f2ac";
+}
+
+/* line 973, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-record:before {
+  content: "\f21b";
+}
+
+/* line 974, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-refresh:before, .ion-refreshing:before {
+  content: "\f21c";
+}
+
+/* line 975, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-reply:before {
+  content: "\f21e";
+}
+
+/* line 976, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-reply-all:before {
+  content: "\f21d";
+}
+
+/* line 977, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-search:before {
+  content: "\f21f";
+}
+
+/* line 978, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-settings:before {
+  content: "\f2ad";
+}
+
+/* line 979, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-share:before {
+  content: "\f220";
+}
+
+/* line 980, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-shuffle:before {
+  content: "\f221";
+}
+
+/* line 981, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-skip-backward:before {
+  content: "\f222";
+}
+
+/* line 982, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-skip-forward:before {
+  content: "\f223";
+}
+
+/* line 983, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-android:before {
+  content: "\f225";
+}
+
+/* line 984, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-android-outline:before {
+  content: "\f224";
+}
+
+/* line 985, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-apple:before {
+  content: "\f227";
+}
+
+/* line 986, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-apple-outline:before {
+  content: "\f226";
+}
+
+/* line 987, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-bitcoin:before {
+  content: "\f2af";
+}
+
+/* line 988, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-bitcoin-outline:before {
+  content: "\f2ae";
+}
+
+/* line 989, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-buffer:before {
+  content: "\f229";
+}
+
+/* line 990, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-buffer-outline:before {
+  content: "\f228";
+}
+
+/* line 991, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-designernews:before {
+  content: "\f22b";
+}
+
+/* line 992, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-designernews-outline:before {
+  content: "\f22a";
+}
+
+/* line 993, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-dribbble:before {
+  content: "\f22d";
+}
+
+/* line 994, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-dribbble-outline:before {
+  content: "\f22c";
+}
+
+/* line 995, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-dropbox:before {
+  content: "\f22f";
+}
+
+/* line 996, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-dropbox-outline:before {
+  content: "\f22e";
+}
+
+/* line 997, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-facebook:before {
+  content: "\f231";
+}
+
+/* line 998, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-facebook-outline:before {
+  content: "\f230";
+}
+
+/* line 999, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-freebsd-devil:before {
+  content: "\f2c4";
+}
+
+/* line 1000, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-github:before {
+  content: "\f233";
+}
+
+/* line 1001, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-github-outline:before {
+  content: "\f232";
+}
+
+/* line 1002, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-googleplus:before {
+  content: "\f235";
+}
+
+/* line 1003, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-googleplus-outline:before {
+  content: "\f234";
+}
+
+/* line 1004, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-hackernews:before {
+  content: "\f237";
+}
+
+/* line 1005, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-hackernews-outline:before {
+  content: "\f236";
+}
+
+/* line 1006, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-linkedin:before {
+  content: "\f239";
+}
+
+/* line 1007, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-linkedin-outline:before {
+  content: "\f238";
+}
+
+/* line 1008, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-pinterest:before {
+  content: "\f2b1";
+}
+
+/* line 1009, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-pinterest-outline:before {
+  content: "\f2b0";
+}
+
+/* line 1010, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-reddit:before {
+  content: "\f23b";
+}
+
+/* line 1011, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-reddit-outline:before {
+  content: "\f23a";
+}
+
+/* line 1012, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-rss:before {
+  content: "\f23d";
+}
+
+/* line 1013, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-rss-outline:before {
+  content: "\f23c";
+}
+
+/* line 1014, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-skype:before {
+  content: "\f23f";
+}
+
+/* line 1015, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-skype-outline:before {
+  content: "\f23e";
+}
+
+/* line 1016, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-tumblr:before {
+  content: "\f241";
+}
+
+/* line 1017, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-tumblr-outline:before {
+  content: "\f240";
+}
+
+/* line 1018, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-tux:before {
+  content: "\f2c5";
+}
+
+/* line 1019, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-twitter:before {
+  content: "\f243";
+}
+
+/* line 1020, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-twitter-outline:before {
+  content: "\f242";
+}
+
+/* line 1021, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-vimeo:before {
+  content: "\f245";
+}
+
+/* line 1022, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-vimeo-outline:before {
+  content: "\f244";
+}
+
+/* line 1023, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-windows:before {
+  content: "\f247";
+}
+
+/* line 1024, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-windows-outline:before {
+  content: "\f246";
+}
+
+/* line 1025, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-wordpress:before {
+  content: "\f249";
+}
+
+/* line 1026, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-wordpress-outline:before {
+  content: "\f248";
+}
+
+/* line 1027, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-yahoo:before {
+  content: "\f24b";
+}
+
+/* line 1028, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-yahoo-outline:before {
+  content: "\f24a";
+}
+
+/* line 1029, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-youtube:before {
+  content: "\f24d";
+}
+
+/* line 1030, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-social-youtube-outline:before {
+  content: "\f24c";
+}
+
+/* line 1031, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-speakerphone:before {
+  content: "\f2b2";
+}
+
+/* line 1032, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-speedometer:before {
+  content: "\f2b3";
+}
+
+/* line 1033, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-spoon:before {
+  content: "\f2b4";
+}
+
+/* line 1034, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-star:before {
+  content: "\f24e";
+}
+
+/* line 1035, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-stats-bars:before {
+  content: "\f2b5";
+}
+
+/* line 1036, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-steam:before {
+  content: "\f30b";
+}
+
+/* line 1037, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-stop:before {
+  content: "\f24f";
+}
+
+/* line 1038, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-thermometer:before {
+  content: "\f2b6";
+}
+
+/* line 1039, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-thumbsdown:before {
+  content: "\f250";
+}
+
+/* line 1040, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-thumbsup:before {
+  content: "\f251";
+}
+
+/* line 1041, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-trash-a:before {
+  content: "\f252";
+}
+
+/* line 1042, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-trash-b:before {
+  content: "\f253";
+}
+
+/* line 1043, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-umbrella:before {
+  content: "\f2b7";
+}
+
+/* line 1044, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-unlocked:before {
+  content: "\f254";
+}
+
+/* line 1045, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-upload:before {
+  content: "\f255";
+}
+
+/* line 1046, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-usb:before {
+  content: "\f2b8";
+}
+
+/* line 1047, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-videocamera:before {
+  content: "\f256";
+}
+
+/* line 1048, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-volume-high:before {
+  content: "\f257";
+}
+
+/* line 1049, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-volume-low:before {
+  content: "\f258";
+}
+
+/* line 1050, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-volume-medium:before {
+  content: "\f259";
+}
+
+/* line 1051, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-volume-mute:before {
+  content: "\f25a";
+}
+
+/* line 1052, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-waterdrop:before {
+  content: "\f25b";
+}
+
+/* line 1053, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-wifi:before {
+  content: "\f25c";
+}
+
+/* line 1054, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-wineglass:before {
+  content: "\f2b9";
+}
+
+/* line 1055, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-woman:before {
+  content: "\f25d";
+}
+
+/* line 1056, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-wrench:before {
+  content: "\f2ba";
+}
+
+/* line 1057, /Users/petebrooks/.rvm/gems/ruby-2.1.2/gems/ionicons-rails-1.4.1.0/vendor/assets/stylesheets/_ionicons-icons.scss */
+.ion-xbox:before {
+  content: "\f30c";
+}
