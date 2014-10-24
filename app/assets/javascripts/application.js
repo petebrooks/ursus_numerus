@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require viewport-units-buggyfill
 //= require modernizr
 //= require fastclick
 //= require isMobile.min

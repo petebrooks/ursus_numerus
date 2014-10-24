@@ -52,8 +52,9 @@ function renderText(element) {
   // max width for word wrap
       maxWidth = w-(x*2);
 
-  if ($window.width() < 500) {
+  if ($window.width() < 650) {
     lineHeight *= 0.7;
+    y = h * 0.2;
   };
 
   // scale for high dpi displays
