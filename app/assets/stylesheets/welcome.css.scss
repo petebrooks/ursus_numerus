@@ -35,9 +35,11 @@ section {
     position: relative;
     &.half {
       height: 39vh;
+      height: 250px;
     }
     &.full {
       min-height: 89vh;
+      min-height: 600px;
     }
   }
 
@@ -67,6 +69,7 @@ section {
     }
     &.title {
       height: 11vh;
+      min-height: 40px;
     }
   }
 
@@ -110,7 +113,7 @@ section {
 @media all and (max-width: 600px) {
   .col.quarter, .col.three-quarters, .col.fifth, .col.four-fifths {
     width: 100%;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
     float: none;
   }
   .col.fifth, .col.four-fifths {
@@ -125,6 +128,9 @@ section {
     display: block;
   }
   .wide-only {
+    display: none;
+  }
+  .arrow {
     display: none;
   }
 }

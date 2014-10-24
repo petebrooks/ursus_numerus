@@ -65,7 +65,7 @@ function renderText(element) {
   // el.style.height = $window.height() + 'px';
 
   ctxt.font = "Bold 2.8rem 'Helvetica'";
-  if($window.width() < 500) {
+  if($window.width() < 600) {
     ctxt.font = "Bold 1.9rem 'Helvetica'";
   }
   ctxt.fillStyle = color;
