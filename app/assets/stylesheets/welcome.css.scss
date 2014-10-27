@@ -55,15 +55,6 @@ section {
     width: 100vw;
     height: 600px; // fallback
     height: 100vh;
-    // h1 {
-    //   color: rgba(255, 255, 255, 0.8);
-    //   font-size: 48px;
-    //   line-height: 600px;
-    //   font-weight: 700;
-    //   text-align: center;
-    //   text-transform: uppercase;
-    //   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    // }
     &.full {
       height: 100vh;
     }
@@ -77,14 +68,17 @@ section {
     background-image: url('antarctica_dms.jpg');
   }
   &#projects {
-    // background-image: url('access-early-morning-test.jpg');
     background-image: url('bopps_nightstarshot.jpg');
   }
   &#background {
     background-image: url('kingfire_oli.jpg');
   }
   &#contact {
-    background-image: url('arctic_plane.jpg')
+    background-image: url('arctic_plane.jpg');
+  }
+  &#jelly {
+    background-image: url('arctic_plane.jpg');
+    height: 60vh;
   }
 }
 
@@ -111,7 +105,7 @@ section {
   }
 }
 @media all and (max-width: 600px) {
-  .col.quarter, .col.three-quarters, .col.fifth, .col.four-fifths {
+  .col.quarter, .col.three-quarters, .col.fifth, .col.four-fifths, {
     width: 100%;
     margin: 0 0 1rem;
     float: none;
@@ -136,19 +130,19 @@ section {
 }
 
 
-@keyframes fadeIO {
+@keyframes fade {
   0%   { opacity:0; }
   100% { opacity:1; }
 }
-@-o-keyframes fadeIO{
+@-o-keyframes fade{
   0%   { opacity:0; }
   100% { opacity:1; }
 }
-@-moz-keyframes fadeIO{
+@-moz-keyframes fade{
   0%   { opacity:0; }
   100% { opacity:1; }
 }
-@-webkit-keyframes fadeIO{
+@-webkit-keyframes fade{
   0%   { opacity:0; }
   100% { opacity:1; }
 }
@@ -158,16 +152,49 @@ div.arrow {
   bottom: 3.5rem;
   width: 100%;
   text-align: center;
-  i.animate-fade {
-     -webkit-animation: fadeIO 3s;
-     -moz-animation: fadeIO 3s;
-     -o-animation: fadeIO 3s;
-      animation: fadeIO 3s;
+  font-size: 1.5rem;
+}
+
+.animate-fade {
+   -webkit-animation: fadeIO 3s;
+   -moz-animation: fadeIO 3s;
+   -o-animation: fadeIO 3s;
+    animation: fadeIO 3s;
+  &.delay {
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+  }
+  &.delay-long {
+   -webkit-animation-delay: 2s;
+   animation-delay: 2s;
   }
 }
 
 i {
   font-size: 2rem;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+@mixin fade-in($time, $delay) {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: $time;
+  -moz-animation-duration: $time;
+  animation-duration: $time;
+
+  -webkit-animation-delay: $delay;
+  -moz-animation-delay: $delay;
+  animation-delay: $delay;
 }
 
 .animate-icon {
@@ -185,4 +212,57 @@ small {
 
 .close {
   margin-bottom: .5rem;
+}
+
+main.jellyvision {
+  position: relative;
+
+  section {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .more {
+    @include fade-in(1s, 1.5s);
+    float: right;
+    width: 100%;
+    text-align: right;
+    a {
+      font-size: 1.5rem;
+    }
+  }
+
+  i {
+    position: relative;
+    top: 0.5rem;
+    font-size: 3rem;
+    margin-left: 0.6rem;
+  }
+  .row {
+    margin-top: 2rem;
+  }
+  h1 {
+    @include fade-in(1s, 0.5s);
+    background-image: url('arctic_plane.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+  }
+  h2 { 
+    @include fade-in(1s, 1s);
+    font-size: 2.5rem;
+  }
+  p {
+    @include fade-in(1s, 2s);
+    color: #b4b4b4;
+    margin-bottom: 3rem;
+  }
+  @media all and (max-width: 760px) {
+    .col.half {
+      float: none;
+      width: 100%;
+    }
+    .more {
+      text-align: left;
+    }
+  }
 }

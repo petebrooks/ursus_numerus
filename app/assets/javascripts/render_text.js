@@ -42,7 +42,7 @@ function renderText(element) {
       color = $el.data('color') || '#ffffff',
   // width and height relative to window
       $window = $(window),
-      w = $window.width() * percentW + 4,
+      w = $window.width() * percentW + 10,
       h = $window.height() * percentH + 4,
   // text baseline start
       x = w * paddingW,

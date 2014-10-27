@@ -1,8 +1,10 @@
-var txtIds = ['introTitle', 'projectsTitle', 'backgroundTitle', 'tikTitle', 'contactTitle'];
+// var txtIds = ['introTitle', 'projectsTitle', 'backgroundTitle', 'tikTitle', 'contactTitle'];
 // var txtIds = ['introTitle', 'projectsTitle', 'contactTitle'];
 
 
-$(document).ready(function() {
+function ready() {
+  var txtIds = $('main').data('txtids');
+  
   window.addEventListener('load', function() {
       FastClick.attach(document.body);
   }, false);
@@ -38,4 +40,12 @@ $(document).ready(function() {
     $('.arrow').hide();
   };
 
-});
+  var r = $('span#really');
+  var run_reallys = setInterval(function(){
+    var t = r.text() + " really";
+    r.text(t);
+  }, 800);
+};
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
