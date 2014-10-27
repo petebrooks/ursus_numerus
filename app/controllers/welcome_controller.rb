@@ -5,4 +5,7 @@ class WelcomeController < ApplicationController
   def resume
   	send_file 'public/pete_brooks_resume.pdf', disposition: 'inline'
   end
+
+  def jellyvision
+  end
 end

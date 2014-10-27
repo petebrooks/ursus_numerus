@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
   get '/resume' => 'welcome#resume'
+  get '/:anything' => 'welcome#jellyvision'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
