@@ -40,6 +40,11 @@ function ready() {
     $('.arrow').hide();
   };
 
+  var r = $('span#really');
+  var run_reallys = setInterval(function(){
+    var t = r.text() + " really";
+    r.text(t);
+  }, 800);
 };
 
 $(document).ready(ready);

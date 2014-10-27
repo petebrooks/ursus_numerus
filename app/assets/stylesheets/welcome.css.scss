@@ -105,7 +105,7 @@ section {
   }
 }
 @media all and (max-width: 600px) {
-  .col.quarter, .col.three-quarters, .col.fifth, .col.four-fifths {
+  .col.quarter, .col.three-quarters, .col.fifth, .col.four-fifths, {
     width: 100%;
     margin: 0 0 1rem;
     float: none;
@@ -130,19 +130,19 @@ section {
 }
 
 
-@keyframes fadeIO {
+@keyframes fade {
   0%   { opacity:0; }
   100% { opacity:1; }
 }
-@-o-keyframes fadeIO{
+@-o-keyframes fade{
   0%   { opacity:0; }
   100% { opacity:1; }
 }
-@-moz-keyframes fadeIO{
+@-moz-keyframes fade{
   0%   { opacity:0; }
   100% { opacity:1; }
 }
-@-webkit-keyframes fadeIO{
+@-webkit-keyframes fade{
   0%   { opacity:0; }
   100% { opacity:1; }
 }
@@ -174,12 +174,26 @@ i {
   font-size: 2rem;
 }
 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 @mixin fade-in($time, $delay) {
-  -webkit-animation: fadeIO $time;
-  -moz-animation: fadeIO $time;
-  -o-animation: fadeIO $time;
-  animation: fadeIO $time;
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: $time;
+  -moz-animation-duration: $time;
+  animation-duration: $time;
+
   -webkit-animation-delay: $delay;
+  -moz-animation-delay: $delay;
   animation-delay: $delay;
 }
 
@@ -207,30 +221,47 @@ main.jellyvision {
     width: 70%;
     margin: 0 auto;
   }
-  a {
+  .more {
+    @include fade-in(1s, 1.5s);
     float: right;
+    width: 100%;
+    text-align: right;
+    a {
+      font-size: 1.5rem;
+    }
   }
+
   i {
     position: relative;
-    top: 0.25rem;
+    top: 0.5rem;
     font-size: 3rem;
-    @include fade-in(3s, 1.5s)
+    margin-left: 0.6rem;
   }
-  .arrow {
-    padding: 0 20%;
-    text-align: right;
+  .row {
+    margin-top: 2rem;
   }
   h1 {
+    @include fade-in(1s, 0.5s);
     background-image: url('arctic_plane.jpg');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
-    @include fade-in(3s, 0.5s);
-    margin-top: 2rem;
   }
-  h2 {
-    margin-top: 2rem;
+  h2 { 
+    @include fade-in(1s, 1s);
     font-size: 2.5rem;
-    @include fade-in(3s, 1s)
+  }
+  p {
+    @include fade-in(1s, 2s);
+    color: #b4b4b4;
+  }
+  @media all and (max-width: 760px) {
+    .col.half {
+      float: none;
+      width: 100%;
+    }
+    .more {
+      text-align: left;
+    }
   }
 }
