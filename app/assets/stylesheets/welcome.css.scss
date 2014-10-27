@@ -254,6 +254,7 @@ main.jellyvision {
   p {
     @include fade-in(1s, 2s);
     color: #b4b4b4;
+    margin-bottom: 3rem;
   }
   @media all and (max-width: 760px) {
     .col.half {
