@@ -6,6 +6,6 @@ class WelcomeController < ApplicationController
   	send_file 'public/pete_brooks_resume.pdf', disposition: 'inline'
   end
 
-  def jellyvision
+  def jv
   end
 end
