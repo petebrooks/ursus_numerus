@@ -18,3 +18,4 @@
 /app/controllers/*.rb
 /app/views/welcome/jv.html.haml
 /config/routes.rb
+/config/secrets.yml
