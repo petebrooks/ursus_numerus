@@ -11,5 +11,8 @@ class WelcomeController < ApplicationController
 
   def tx
   end
-  
+
+  def v
+  end
+
 end

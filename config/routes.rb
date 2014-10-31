@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/if_i_could_work_anywhere' => 'welcome#jv'
   get '/if_I_could_work_anywhere' => 'welcome#jv'
   get '/id_love_to_join_your_team' => 'welcome#tx'
+  get '/you_do_amazing_work' => 'welcome#v'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
