@@ -59,8 +59,9 @@ section {
       height: 100vh;
     }
     &.title {
-      height: 11vh;
-      min-height: 40px;
+      height: 12vh;
+      min-height: 60px;
+      max-height: 90px;
     }
   }
 
@@ -247,7 +248,7 @@ main.special {
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
   }
-  h2 { 
+  h2 {
     @include fade-in(1s, 1s);
     font-size: 2.5rem;
   }

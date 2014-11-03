@@ -54,7 +54,7 @@ function renderText(element) {
 
   if ($window.width() < 650) {
     lineHeight *= 0.7;
-    y *= 0.7;
+    // y *= 0.5;
   };
 
   // scale for high dpi displays
@@ -65,9 +65,9 @@ function renderText(element) {
   el.style.height = h * ratio + 'px';
   // el.style.height = $window.height() + 'px';
 
-  ctxt.font = "Bold 2.8rem 'Helvetica'";
+  ctxt.font = "Bold 3.2rem 'Helvetica'";
   if($window.width() < 600) {
-    ctxt.font = "Bold 1.9rem 'Helvetica'";
+    ctxt.font = "Bold 2.2rem 'Helvetica'";
   }
   ctxt.fillStyle = color;
   ctxt.fillRect(0, 0, w, h);
