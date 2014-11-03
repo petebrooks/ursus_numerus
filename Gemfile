@@ -31,7 +31,6 @@ gem 'modernizr-rails'
 
 gem 'ionicons-rails'
 
-gem 'rails_12factor', group: :production
 
 gem 'fastclick-rails'
 
@@ -41,7 +40,11 @@ gem 'rack-zippy'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+group :production do
+  gem 'rails_12factor'
+  gem 'unicorn'
+  gem 'unicorn-worker-killer'
+end
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -49,5 +52,5 @@ gem 'rack-zippy'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-ruby '2.1.2'
+ruby '2.1.3'
 

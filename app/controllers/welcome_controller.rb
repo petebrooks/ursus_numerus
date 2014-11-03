@@ -8,4 +8,11 @@ class WelcomeController < ApplicationController
 
   def jv
   end
+
+  def tx
+  end
+
+  def v
+  end
+
 end
