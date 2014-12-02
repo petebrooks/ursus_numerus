@@ -2,11 +2,6 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
   get '/resume' => 'welcome#resume'
-  get '/if_i_could_work_anywhere' => 'welcome#jv'
-  get '/if_I_could_work_anywhere' => 'welcome#jv'
-  get '/id_love_to_join_your_team' => 'welcome#tx'
-  get '/you_do_amazing_work' => 'welcome#v'
-  get '/no_team_id_rather_be_part_of' => 'welcome#v'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
