@@ -40,6 +40,11 @@ group :development do
   gem 'pry'
 end
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.1'
+  gem 'faker'
+end
+
 # Use unicorn as the app server
 group :production do
   gem 'rails_12factor'
