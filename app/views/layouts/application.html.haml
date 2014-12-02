@@ -1,0 +1,23 @@
+!!!
+%html
+  %head
+    %meta{:content => "width=device-width,initial-scale=1.0", :name => "viewport"}/
+    = favicon_link_tag 'favicon.ico'
+    %title Pete Brooks | Ursus Numerus
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = javascript_include_tag :modernizr
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-55722955-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+  %body
+    :javascript
+      window.viewportUnitsBuggyfill.init();
+    = yield

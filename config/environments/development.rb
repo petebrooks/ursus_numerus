@@ -37,4 +37,7 @@ Rails.application.configure do
 
   config.assets.prefix = "/dev-assets"
   config.assets.compile = true
+
+  # Add Rack::LiveReload to the bottom of the middleware stack with the default options.
+  config.middleware.use Rack::LiveReload
 end
