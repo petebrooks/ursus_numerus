@@ -1,4 +1,7 @@
-order: Carnivora
-family: Ursidae
-genus: Ursus
-species: U. numerus
+order: Carnivora 
+
+family: Ursidae 
+
+genus: Ursus 
+
+species: U. numerus 
