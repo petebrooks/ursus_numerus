@@ -3,7 +3,7 @@
     %h3
       = post.title
   %p
-    = cleanup(generate_markdown(post.body))
+    = post.to_plain_text
   %small
     = "#{time_ago_in_words(post.created_at)} ago"
   - if current_user

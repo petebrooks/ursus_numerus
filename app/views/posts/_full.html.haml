@@ -1,0 +1,6 @@
+.post.full
+  = link_to post_path(post) do
+    %h2
+      = post.title
+  %p
+    = post.to_html

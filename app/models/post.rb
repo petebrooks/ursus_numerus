@@ -14,4 +14,13 @@ class Post < ActiveRecord::Base
   def all_tags
     self.tags.map(&:name).join(', ')
   end
+
+  def to_html
+    Kramdown::Document.new(self.body).to_html.html_safe
+  end
+
+  def to_plain_text
+    html = to_html
+    Sanitize.fragment(html)
+  end
 end
