@@ -1,8 +1,6 @@
 %p#notice= notice
 
-%h2= @post.title
-%p
-  = generate_markdown(@post.body)
+= render 'full', post: @post
 
 - if current_user
   = link_to 'Edit', edit_post_path(@post)

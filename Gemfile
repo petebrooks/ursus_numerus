@@ -37,8 +37,8 @@ gem 'bitters'
 
 gem 'simple_form'
 
-gem 'devise'
 gem 'kramdown'
+gem 'sanitize'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
