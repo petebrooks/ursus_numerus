@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'haml-rails'
 gem 'html2haml'
 gem 'modernizr-rails'
+gem 'normalize-rails'
 gem 'ionicons-rails'
 gem 'fastclick-rails'
 gem 'rack-zippy'

@@ -1,0 +1,10 @@
+.post.mini
+  = link_to post_path(post) do
+    %h3
+      = post.title
+  %p
+    = post.body
+  %small
+    = "#{time_ago_in_words(post.created_at)} ago"
+  - if current_user
+    = link_to 'Edit', edit_post_path(post)

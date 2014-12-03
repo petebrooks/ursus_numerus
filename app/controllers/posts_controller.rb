@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
+  include SessionsHelper
   before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :require_login, only: [:edit, :update, :destroy, :new]
 
   # GET /posts
   # GET /posts.json
@@ -25,6 +27,7 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
     @post = Post.new(post_params)
+    @post.user = current_user
 
     respond_to do |format|
       if @post.save
@@ -67,6 +70,9 @@ class PostsController < ApplicationController
       @post = Post.find(params[:id])
     end
 
+    def require_login
+      raise ActionController::RoutingError.new('Not Found') unless logged_in?
+    end
     # Never trust parameters from the scary internet, only allow the white list through.
     def post_params
       params.require(:post).permit(:title, :body, :user, :all_tags)
