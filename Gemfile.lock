@@ -47,6 +47,13 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    devise (3.4.1)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      responders
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
     diff-lcs (1.2.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -95,6 +102,7 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.1)
     kgio (2.9.2)
+    kramdown (1.5.0)
     listen (2.8.3)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -111,6 +119,7 @@ GEM
       bourbon (>= 3.1)
       sass (~> 3.2.19)
     normalize-rails (3.0.1)
+    orm_adapter (0.5.0)
     pg (0.17.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -149,6 +158,8 @@ GEM
       ffi (>= 0.5.0)
     rdoc (4.1.2)
       json (~> 1.4)
+    responders (1.1.2)
+      railties (>= 3.2, < 4.2)
     rspec-core (3.1.7)
       rspec-support (~> 3.1.0)
     rspec-expectations (3.1.2)
@@ -209,6 +220,8 @@ GEM
       raindrops (~> 0.7)
     unicorn-worker-killer (0.4.2)
       unicorn (~> 4)
+    warden (1.2.3)
+      rack (>= 1.0)
 
 PLATFORMS
   ruby
@@ -218,6 +231,7 @@ DEPENDENCIES
   bitters
   bourbon
   coffee-rails (~> 4.0.0)
+  devise
   faker
   fastclick-rails
   guard
@@ -227,6 +241,7 @@ DEPENDENCIES
   ionicons-rails
   jbuilder (~> 2.0)
   jquery-rails
+  kramdown
   modernizr-rails
   neat
   normalize-rails
